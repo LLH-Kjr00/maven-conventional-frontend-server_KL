@@ -1,0 +1,294 @@
+[25/02/27 11:14:45.198][INFO][com.cmt.vending.server.LocalServer-48] [loadConfig]Start to load configuration,
+[25/02/27 11:14:45.200][INFO][com.cmt.vending.server.LocalServer-55] [loadConfig]Loading Client Config ( /opt/vending/vm.properties )
+[25/02/27 11:14:45.201][INFO][com.cmt.vending.server.LocalServer-58] [loadConfig]Loading Network Config ( /opt/vending/network.properties )
+[25/02/27 11:14:45.216][INFO][com.cmt.vending.server.LocalServer-61] [loadConfig]Loading Resource Config ( /opt/vending/resource.properties )
+[25/02/27 11:14:45.217][INFO][com.cmt.vending.server.LocalServer-64] [loadConfig]Loading Global Config ( /opt/vending/vmc.properties )
+[25/02/27 11:14:45.217][ERROR][com.cmt.vending.server.LocalServer-89] [setModelFromGpio]Failed to get GPIO: 
+java.lang.UnsatisfiedLinkError: no gpio in java.library.path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+	at java.base/java.lang.ClassLoader.loadLibrary(ClassLoader.java:2434) ~[?:?]
+	at java.base/java.lang.Runtime.loadLibrary0(Runtime.java:818) ~[?:?]
+	at java.base/java.lang.System.loadLibrary(System.java:1993) ~[?:?]
+	at com.cmt.vending.server.gpio.GPIOCtrl.<clinit>(GPIOCtrl.java:5) ~[classes/:?]
+	at com.cmt.vending.server.LocalServer.setModelFromGpio(LocalServer.java:86) [classes/:?]
+	at com.cmt.vending.server.LocalServer.loadConfig(LocalServer.java:71) [classes/:?]
+	at com.cmt.vending.server.LocalServer.main(LocalServer.java:158) [classes/:?]
+[25/02/27 11:14:45.225][INFO][com.cmt.vending.server.LocalServer-93] [setModelFromGpio]GPIO Value: 0
+[25/02/27 11:14:45.226][ERROR][com.cmt.vending.server.LocalServer-106] [setModelFromGpio]Unknown GPIO Value 0 so the model is keep as setting in vm.properties: MQ_1
+[25/02/27 11:14:45.226][INFO][com.cmt.vending.server.config.LocalServerConfig-47] VM.ID: 1
+[25/02/27 11:14:45.227][INFO][com.cmt.vending.server.config.LocalServerConfig-48] VM.MODEL: MQ_1
+[25/02/27 11:14:45.227][INFO][com.cmt.vending.server.config.LocalServerConfig-49] VM.ENVIRONMENT: DEV
+[25/02/27 11:14:45.227][INFO][com.cmt.vending.server.config.LocalServerConfig-50] VM.REGION: HK
+[25/02/27 11:14:45.227][INFO][com.cmt.vending.server.config.LocalServerConfig-51] VM.CLIENT: SVM
+[25/02/27 11:14:45.227][INFO][com.cmt.vending.server.operation.BackendServerComm-49] API_HOST: svm.365vending.net
+[25/02/27 11:14:45.228][INFO][com.cmt.vending.server.operation.BackendServerComm-50] API_PORT: 443
+[25/02/27 11:14:45.229][INFO][com.cmt.vending.server.operation.BackendServerComm-51] API_TIMEOUT_MS : 30000
+[25/02/27 11:14:45.229][INFO][com.cmt.vending.server.operation.BackendServerComm-52] INSTANCE: svm
+[25/02/27 11:14:45.229][INFO][com.cmt.vending.server.operation.BackendServerComm-53] INSTANCE_WS: cmt
+[25/02/27 11:14:45.229][INFO][com.cmt.vending.server.operation.BackendServerComm-54] TRUST_STORE: /opt/vending/vendingclient.jks.PRD
+[25/02/27 11:14:45.229][INFO][com.cmt.vending.server.operation.BackendServerComm-55] NETWORK_DISABLE_DURATION_MIN: 90
+[25/02/27 11:14:45.229][INFO][com.cmt.vending.server.operation.SFTPComm-39] SFTP_HOST: svm.365vending.net
+[25/02/27 11:14:45.230][INFO][com.cmt.vending.server.operation.SFTPComm-40] SFTP_PORT: 22
+[25/02/27 11:14:45.230][INFO][com.cmt.vending.server.operation.SFTPComm-41] SFTP_USERNAME: vendingcmt
+[25/02/27 11:14:45.230][INFO][com.cmt.vending.server.operation.SFTPComm-42] SFTP_PW: CMTech@2019*
+[25/02/27 11:14:45.230][INFO][com.cmt.vending.server.operation.SFTPComm-43] SFTP_DOWNLOAD_PATH: /opt/vending-cmt/media
+[25/02/27 11:14:45.230][INFO][com.cmt.vending.server.operation.ResourceManager-46] INFO_FOLDER: /opt/vending/RESOURCE/INFO/
+[25/02/27 11:14:45.230][INFO][com.cmt.vending.server.operation.ResourceManager-47] PRODUCT_ICON_FOLDER: /home/june/Desktop/conventional-frontend-ui/public/assets/media/productIcon
+[25/02/27 11:14:45.230][INFO][com.cmt.vending.server.operation.ResourceManager-48] PRODUCT_IMAGE_FOLDER : /home/june/Desktop/conventional-frontend-ui/public/assets/media/productImage
+[25/02/27 11:14:45.230][INFO][com.cmt.vending.server.operation.ResourceManager-49] PRODUCT_VIDEO_FOLDER : /home/june/Desktop/conventional-frontend-ui/public/assets/media/playlist
+[25/02/27 11:14:45.230][INFO][com.cmt.vending.server.operation.ResourceManager-50] TAB_ICON_FOLDER: /home/june/Desktop/conventional-frontend-ui/public/assets/media/tabIcon
+[25/02/27 11:14:45.231][INFO][com.cmt.vending.server.operation.ResourceManager-51] PLAYLIST_VIDEO_FOLDER: /home/june/Desktop/conventional-frontend-ui/public/assets/media/playlist
+[25/02/27 11:14:45.231][INFO][com.cmt.vending.server.config.VmcConfig-34] VMC.COMM_DEV: /dev/ttyUSB
+[25/02/27 11:14:45.231][INFO][com.cmt.vending.server.config.VmcConfig-35] VMC.COMM_PORT: 0
+[25/02/27 11:14:45.231][INFO][com.cmt.vending.server.config.VmcConfig-36] VMC.BAUD_RATE: 9600
+[25/02/27 11:15:48.656][INFO][com.cmt.vending.server.LocalServer-48] [loadConfig]Start to load configuration
+[25/02/27 11:15:48.657][INFO][com.cmt.vending.server.LocalServer-56] [loadConfig]Loading Client Config ( /opt/vending/vm.properties )
+[25/02/27 11:15:48.658][INFO][com.cmt.vending.server.LocalServer-59] [loadConfig]Loading Network Config ( /opt/vending/network.properties )
+[25/02/27 11:15:48.666][INFO][com.cmt.vending.server.LocalServer-62] [loadConfig]Loading Resource Config ( /opt/vending/resource.properties )
+[25/02/27 11:15:48.667][INFO][com.cmt.vending.server.LocalServer-65] [loadConfig]Loading Global Config ( /opt/vending/vmc.properties )
+[25/02/27 11:15:48.667][ERROR][com.cmt.vending.server.LocalServer-90] [setModelFromGpio]Failed to get GPIO: 
+java.lang.UnsatisfiedLinkError: no gpio in java.library.path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+	at java.base/java.lang.ClassLoader.loadLibrary(ClassLoader.java:2434) ~[?:?]
+	at java.base/java.lang.Runtime.loadLibrary0(Runtime.java:818) ~[?:?]
+	at java.base/java.lang.System.loadLibrary(System.java:1993) ~[?:?]
+	at com.cmt.vending.server.gpio.GPIOCtrl.<clinit>(GPIOCtrl.java:5) ~[classes/:?]
+	at com.cmt.vending.server.LocalServer.setModelFromGpio(LocalServer.java:87) [classes/:?]
+	at com.cmt.vending.server.LocalServer.loadConfig(LocalServer.java:72) [classes/:?]
+	at com.cmt.vending.server.LocalServer.main(LocalServer.java:159) [classes/:?]
+[25/02/27 11:15:48.675][INFO][com.cmt.vending.server.LocalServer-94] [setModelFromGpio]GPIO Value: 0
+[25/02/27 11:15:48.677][ERROR][com.cmt.vending.server.LocalServer-107] [setModelFromGpio]Unknown GPIO Value 0 so the model is keep as setting in vm.properties: MQ_1
+[25/02/27 11:15:48.677][INFO][com.cmt.vending.server.config.LocalServerConfig-47] VM.ID: 1
+[25/02/27 11:15:48.677][INFO][com.cmt.vending.server.config.LocalServerConfig-48] VM.MODEL: MQ_1
+[25/02/27 11:15:48.678][INFO][com.cmt.vending.server.config.LocalServerConfig-49] VM.ENVIRONMENT: DEV
+[25/02/27 11:15:48.678][INFO][com.cmt.vending.server.config.LocalServerConfig-50] VM.REGION: HK
+[25/02/27 11:15:48.678][INFO][com.cmt.vending.server.config.LocalServerConfig-51] VM.CLIENT: SVM
+[25/02/27 11:15:48.678][INFO][com.cmt.vending.server.operation.BackendServerComm-49] API_HOST: svm.365vending.net
+[25/02/27 11:15:48.678][INFO][com.cmt.vending.server.operation.BackendServerComm-50] API_PORT: 443
+[25/02/27 11:15:48.680][INFO][com.cmt.vending.server.operation.BackendServerComm-51] API_TIMEOUT_MS : 30000
+[25/02/27 11:15:48.680][INFO][com.cmt.vending.server.operation.BackendServerComm-52] INSTANCE: svm
+[25/02/27 11:15:48.681][INFO][com.cmt.vending.server.operation.BackendServerComm-53] INSTANCE_WS: cmt
+[25/02/27 11:15:48.681][INFO][com.cmt.vending.server.operation.BackendServerComm-54] TRUST_STORE: /opt/vending/vendingclient.jks.PRD
+[25/02/27 11:15:48.681][INFO][com.cmt.vending.server.operation.BackendServerComm-55] NETWORK_DISABLE_DURATION_MIN: 90
+[25/02/27 11:15:48.681][INFO][com.cmt.vending.server.operation.SFTPComm-39] SFTP_HOST: svm.365vending.net
+[25/02/27 11:15:48.681][INFO][com.cmt.vending.server.operation.SFTPComm-40] SFTP_PORT: 22
+[25/02/27 11:15:48.681][INFO][com.cmt.vending.server.operation.SFTPComm-41] SFTP_USERNAME: vendingcmt
+[25/02/27 11:15:48.681][INFO][com.cmt.vending.server.operation.SFTPComm-42] SFTP_PW: CMTech@2019*
+[25/02/27 11:15:48.681][INFO][com.cmt.vending.server.operation.SFTPComm-43] SFTP_DOWNLOAD_PATH: /opt/vending-cmt/media
+[25/02/27 11:15:48.682][INFO][com.cmt.vending.server.operation.ResourceManager-46] INFO_FOLDER: /opt/vending/RESOURCE/INFO/
+[25/02/27 11:15:48.682][INFO][com.cmt.vending.server.operation.ResourceManager-47] PRODUCT_ICON_FOLDER: /home/june/Desktop/conventional-frontend-ui/public/assets/media/productIcon
+[25/02/27 11:15:48.682][INFO][com.cmt.vending.server.operation.ResourceManager-48] PRODUCT_IMAGE_FOLDER : /home/june/Desktop/conventional-frontend-ui/public/assets/media/productImage
+[25/02/27 11:15:48.682][INFO][com.cmt.vending.server.operation.ResourceManager-49] PRODUCT_VIDEO_FOLDER : /home/june/Desktop/conventional-frontend-ui/public/assets/media/playlist
+[25/02/27 11:15:48.682][INFO][com.cmt.vending.server.operation.ResourceManager-50] TAB_ICON_FOLDER: /home/june/Desktop/conventional-frontend-ui/public/assets/media/tabIcon
+[25/02/27 11:15:48.682][INFO][com.cmt.vending.server.operation.ResourceManager-51] PLAYLIST_VIDEO_FOLDER: /home/june/Desktop/conventional-frontend-ui/public/assets/media/playlist
+[25/02/27 11:15:48.683][INFO][com.cmt.vending.server.config.VmcConfig-34] VMC.COMM_DEV: /dev/ttyUSB
+[25/02/27 11:15:48.683][INFO][com.cmt.vending.server.config.VmcConfig-35] VMC.COMM_PORT: 0
+[25/02/27 11:15:48.683][INFO][com.cmt.vending.server.config.VmcConfig-36] VMC.BAUD_RATE: 9600
+[25/02/27 11:16:34.244][INFO][com.cmt.vending.server.LocalServer-48] [loadConfig]Start to load configuration
+[25/02/27 11:16:34.246][INFO][com.cmt.vending.server.LocalServer-56] [loadConfig]Loading Client Config ( /opt/vending/vm.properties )
+[25/02/27 11:16:34.246][INFO][com.cmt.vending.server.LocalServer-60] [loadConfig]Loading Network Config ( /opt/vending/network.properties )
+[25/02/27 11:16:34.253][INFO][com.cmt.vending.server.LocalServer-63] [loadConfig]Loading Resource Config ( /opt/vending/resource.properties )
+[25/02/27 11:16:34.254][INFO][com.cmt.vending.server.LocalServer-66] [loadConfig]Loading Global Config ( /opt/vending/vmc.properties )
+[25/02/27 11:16:34.255][ERROR][com.cmt.vending.server.LocalServer-91] [setModelFromGpio]Failed to get GPIO: 
+java.lang.UnsatisfiedLinkError: no gpio in java.library.path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+	at java.base/java.lang.ClassLoader.loadLibrary(ClassLoader.java:2434) ~[?:?]
+	at java.base/java.lang.Runtime.loadLibrary0(Runtime.java:818) ~[?:?]
+	at java.base/java.lang.System.loadLibrary(System.java:1993) ~[?:?]
+	at com.cmt.vending.server.gpio.GPIOCtrl.<clinit>(GPIOCtrl.java:5) ~[classes/:?]
+	at com.cmt.vending.server.LocalServer.setModelFromGpio(LocalServer.java:88) [classes/:?]
+	at com.cmt.vending.server.LocalServer.loadConfig(LocalServer.java:73) [classes/:?]
+	at com.cmt.vending.server.LocalServer.main(LocalServer.java:160) [classes/:?]
+[25/02/27 11:16:34.262][INFO][com.cmt.vending.server.LocalServer-95] [setModelFromGpio]GPIO Value: 0
+[25/02/27 11:16:34.264][ERROR][com.cmt.vending.server.LocalServer-108] [setModelFromGpio]Unknown GPIO Value 0 so the model is keep as setting in vm.properties: MQ_1
+[25/02/27 11:16:34.264][INFO][com.cmt.vending.server.config.LocalServerConfig-47] VM.ID: 1
+[25/02/27 11:16:34.265][INFO][com.cmt.vending.server.config.LocalServerConfig-49] VM.MODEL: MQ_1
+[25/02/27 11:16:34.265][INFO][com.cmt.vending.server.config.LocalServerConfig-50] VM.ENVIRONMENT: DEV
+[25/02/27 11:16:34.265][INFO][com.cmt.vending.server.config.LocalServerConfig-51] VM.REGION: HK
+[25/02/27 11:16:34.265][INFO][com.cmt.vending.server.config.LocalServerConfig-52] VM.CLIENT: SVM
+[25/02/27 11:16:34.266][INFO][com.cmt.vending.server.operation.BackendServerComm-49] API_HOST: svm.365vending.net
+[25/02/27 11:16:34.266][INFO][com.cmt.vending.server.operation.BackendServerComm-50] API_PORT: 443
+[25/02/27 11:16:34.267][INFO][com.cmt.vending.server.operation.BackendServerComm-51] API_TIMEOUT_MS : 30000
+[25/02/27 11:16:34.267][INFO][com.cmt.vending.server.operation.BackendServerComm-52] INSTANCE: svm
+[25/02/27 11:16:34.268][INFO][com.cmt.vending.server.operation.BackendServerComm-53] INSTANCE_WS: cmt
+[25/02/27 11:16:34.268][INFO][com.cmt.vending.server.operation.BackendServerComm-54] TRUST_STORE: /opt/vending/vendingclient.jks.PRD
+[25/02/27 11:16:34.268][INFO][com.cmt.vending.server.operation.BackendServerComm-55] NETWORK_DISABLE_DURATION_MIN: 90
+[25/02/27 11:16:34.268][INFO][com.cmt.vending.server.operation.SFTPComm-39] SFTP_HOST: svm.365vending.net
+[25/02/27 11:16:34.268][INFO][com.cmt.vending.server.operation.SFTPComm-40] SFTP_PORT: 22
+[25/02/27 11:16:34.268][INFO][com.cmt.vending.server.operation.SFTPComm-41] SFTP_USERNAME: vendingcmt
+[25/02/27 11:16:34.268][INFO][com.cmt.vending.server.operation.SFTPComm-42] SFTP_PW: CMTech@2019*
+[25/02/27 11:16:34.269][INFO][com.cmt.vending.server.operation.SFTPComm-43] SFTP_DOWNLOAD_PATH: /opt/vending-cmt/media
+[25/02/27 11:16:34.269][INFO][com.cmt.vending.server.operation.ResourceManager-46] INFO_FOLDER: /opt/vending/RESOURCE/INFO/
+[25/02/27 11:16:34.269][INFO][com.cmt.vending.server.operation.ResourceManager-47] PRODUCT_ICON_FOLDER: /home/june/Desktop/conventional-frontend-ui/public/assets/media/productIcon
+[25/02/27 11:16:34.269][INFO][com.cmt.vending.server.operation.ResourceManager-48] PRODUCT_IMAGE_FOLDER : /home/june/Desktop/conventional-frontend-ui/public/assets/media/productImage
+[25/02/27 11:16:34.269][INFO][com.cmt.vending.server.operation.ResourceManager-49] PRODUCT_VIDEO_FOLDER : /home/june/Desktop/conventional-frontend-ui/public/assets/media/playlist
+[25/02/27 11:16:34.269][INFO][com.cmt.vending.server.operation.ResourceManager-50] TAB_ICON_FOLDER: /home/june/Desktop/conventional-frontend-ui/public/assets/media/tabIcon
+[25/02/27 11:16:34.269][INFO][com.cmt.vending.server.operation.ResourceManager-51] PLAYLIST_VIDEO_FOLDER: /home/june/Desktop/conventional-frontend-ui/public/assets/media/playlist
+[25/02/27 11:16:34.270][INFO][com.cmt.vending.server.config.VmcConfig-34] VMC.COMM_DEV: /dev/ttyUSB
+[25/02/27 11:16:34.270][INFO][com.cmt.vending.server.config.VmcConfig-35] VMC.COMM_PORT: 0
+[25/02/27 11:16:34.270][INFO][com.cmt.vending.server.config.VmcConfig-36] VMC.BAUD_RATE: 9600
+[25/02/27 11:16:41.334][INFO][com.cmt.vending.server.LocalServer-48] [loadConfig]Start to load configuration
+[25/02/27 11:16:41.346][INFO][com.cmt.vending.server.LocalServer-56] [loadConfig]Loading Client Config ( /opt/vending/vm.properties )
+[25/02/27 11:16:41.346][INFO][com.cmt.vending.server.LocalServer-60] [loadConfig]Loading Network Config ( /opt/vending/network.properties )
+[25/02/27 11:16:41.355][INFO][com.cmt.vending.server.LocalServer-63] [loadConfig]Loading Resource Config ( /opt/vending/resource.properties )
+[25/02/27 11:16:41.355][INFO][com.cmt.vending.server.LocalServer-66] [loadConfig]Loading Global Config ( /opt/vending/vmc.properties )
+[25/02/27 11:17:04.087][ERROR][com.cmt.vending.server.LocalServer-91] [setModelFromGpio]Failed to get GPIO: 
+java.lang.UnsatisfiedLinkError: no gpio in java.library.path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+	at java.base/java.lang.ClassLoader.loadLibrary(ClassLoader.java:2434) ~[?:?]
+	at java.base/java.lang.Runtime.loadLibrary0(Runtime.java:818) ~[?:?]
+	at java.base/java.lang.System.loadLibrary(System.java:1993) ~[?:?]
+	at com.cmt.vending.server.gpio.GPIOCtrl.<clinit>(GPIOCtrl.java:5) ~[classes/:?]
+	at com.cmt.vending.server.LocalServer.setModelFromGpio(LocalServer.java:88) [classes/:?]
+	at com.cmt.vending.server.LocalServer.loadConfig(LocalServer.java:73) [classes/:?]
+	at com.cmt.vending.server.LocalServer.main(LocalServer.java:160) [classes/:?]
+[25/02/27 11:17:04.104][INFO][com.cmt.vending.server.LocalServer-95] [setModelFromGpio]GPIO Value: 0
+[25/02/27 11:17:04.108][ERROR][com.cmt.vending.server.LocalServer-108] [setModelFromGpio]Unknown GPIO Value 0 so the model is keep as setting in vm.properties: MQ_1
+[25/02/27 11:17:04.109][INFO][com.cmt.vending.server.config.LocalServerConfig-47] VM.ID: 1
+[25/02/27 11:17:04.110][INFO][com.cmt.vending.server.config.LocalServerConfig-49] VM.MODEL: MQ_1
+[25/02/27 11:17:04.110][INFO][com.cmt.vending.server.config.LocalServerConfig-50] VM.ENVIRONMENT: DEV
+[25/02/27 11:17:04.110][INFO][com.cmt.vending.server.config.LocalServerConfig-51] VM.REGION: HK
+[25/02/27 11:17:04.110][INFO][com.cmt.vending.server.config.LocalServerConfig-52] VM.CLIENT: SVM
+[25/02/27 11:17:04.111][INFO][com.cmt.vending.server.operation.BackendServerComm-49] API_HOST: svm.365vending.net
+[25/02/27 11:17:04.111][INFO][com.cmt.vending.server.operation.BackendServerComm-50] API_PORT: 443
+[25/02/27 11:17:04.113][INFO][com.cmt.vending.server.operation.BackendServerComm-51] API_TIMEOUT_MS : 30000
+[25/02/27 11:17:04.113][INFO][com.cmt.vending.server.operation.BackendServerComm-52] INSTANCE: svm
+[25/02/27 11:17:04.113][INFO][com.cmt.vending.server.operation.BackendServerComm-53] INSTANCE_WS: cmt
+[25/02/27 11:17:04.113][INFO][com.cmt.vending.server.operation.BackendServerComm-54] TRUST_STORE: /opt/vending/vendingclient.jks.PRD
+[25/02/27 11:17:04.114][INFO][com.cmt.vending.server.operation.BackendServerComm-55] NETWORK_DISABLE_DURATION_MIN: 90
+[25/02/27 11:17:04.114][INFO][com.cmt.vending.server.operation.SFTPComm-39] SFTP_HOST: svm.365vending.net
+[25/02/27 11:17:04.114][INFO][com.cmt.vending.server.operation.SFTPComm-40] SFTP_PORT: 22
+[25/02/27 11:17:04.114][INFO][com.cmt.vending.server.operation.SFTPComm-41] SFTP_USERNAME: vendingcmt
+[25/02/27 11:17:04.114][INFO][com.cmt.vending.server.operation.SFTPComm-42] SFTP_PW: CMTech@2019*
+[25/02/27 11:17:04.114][INFO][com.cmt.vending.server.operation.SFTPComm-43] SFTP_DOWNLOAD_PATH: /opt/vending-cmt/media
+[25/02/27 11:17:04.115][INFO][com.cmt.vending.server.operation.ResourceManager-46] INFO_FOLDER: /opt/vending/RESOURCE/INFO/
+[25/02/27 11:17:04.115][INFO][com.cmt.vending.server.operation.ResourceManager-47] PRODUCT_ICON_FOLDER: /home/june/Desktop/conventional-frontend-ui/public/assets/media/productIcon
+[25/02/27 11:17:04.115][INFO][com.cmt.vending.server.operation.ResourceManager-48] PRODUCT_IMAGE_FOLDER : /home/june/Desktop/conventional-frontend-ui/public/assets/media/productImage
+[25/02/27 11:17:04.115][INFO][com.cmt.vending.server.operation.ResourceManager-49] PRODUCT_VIDEO_FOLDER : /home/june/Desktop/conventional-frontend-ui/public/assets/media/playlist
+[25/02/27 11:17:04.117][INFO][com.cmt.vending.server.operation.ResourceManager-50] TAB_ICON_FOLDER: /home/june/Desktop/conventional-frontend-ui/public/assets/media/tabIcon
+[25/02/27 11:17:04.117][INFO][com.cmt.vending.server.operation.ResourceManager-51] PLAYLIST_VIDEO_FOLDER: /home/june/Desktop/conventional-frontend-ui/public/assets/media/playlist
+[25/02/27 11:17:04.118][INFO][com.cmt.vending.server.config.VmcConfig-34] VMC.COMM_DEV: /dev/ttyUSB
+[25/02/27 11:17:04.118][INFO][com.cmt.vending.server.config.VmcConfig-35] VMC.COMM_PORT: 0
+[25/02/27 11:17:04.118][INFO][com.cmt.vending.server.config.VmcConfig-36] VMC.BAUD_RATE: 9600
+[25/02/27 11:17:05.002][INFO][com.cmt.vending.server.LocalServer-48] [loadConfig]Start to load configuration
+[25/02/27 11:17:05.006][INFO][com.cmt.vending.server.LocalServer-56] [loadConfig]Loading Client Config ( /opt/vending/vm.properties )
+[25/02/27 11:17:23.868][INFO][com.cmt.vending.server.LocalServer-60] [loadConfig]Loading Network Config ( /opt/vending/network.properties )
+[25/02/27 11:17:23.877][INFO][com.cmt.vending.server.LocalServer-63] [loadConfig]Loading Resource Config ( /opt/vending/resource.properties )
+[25/02/27 11:17:23.878][INFO][com.cmt.vending.server.LocalServer-66] [loadConfig]Loading Global Config ( /opt/vending/vmc.properties )
+[25/02/27 11:17:23.879][ERROR][com.cmt.vending.server.LocalServer-91] [setModelFromGpio]Failed to get GPIO: 
+java.lang.UnsatisfiedLinkError: no gpio in java.library.path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+	at java.base/java.lang.ClassLoader.loadLibrary(ClassLoader.java:2434) ~[?:?]
+	at java.base/java.lang.Runtime.loadLibrary0(Runtime.java:818) ~[?:?]
+	at java.base/java.lang.System.loadLibrary(System.java:1993) ~[?:?]
+	at com.cmt.vending.server.gpio.GPIOCtrl.<clinit>(GPIOCtrl.java:5) ~[classes/:?]
+	at com.cmt.vending.server.LocalServer.setModelFromGpio(LocalServer.java:88) [classes/:?]
+	at com.cmt.vending.server.LocalServer.loadConfig(LocalServer.java:73) [classes/:?]
+	at com.cmt.vending.server.LocalServer.main(LocalServer.java:160) [classes/:?]
+[25/02/27 11:18:46.198][INFO][com.cmt.vending.server.LocalServer-48] [loadConfig]Start to load configuration
+[25/02/27 11:18:46.202][INFO][com.cmt.vending.server.LocalServer-56] [loadConfig]Loading Client Config ( /opt/vending/vm.properties )
+[25/02/27 11:19:00.773][INFO][com.cmt.vending.server.LocalServer-60] [loadConfig]Loading Network Config ( /opt/vending/network.properties )
+[25/02/27 11:19:00.786][INFO][com.cmt.vending.server.LocalServer-63] [loadConfig]Loading Resource Config ( /opt/vending/resource.properties )
+[25/02/27 11:19:00.790][INFO][com.cmt.vending.server.LocalServer-66] [loadConfig]Loading Global Config ( /opt/vending/vmc.properties )
+[25/02/27 11:19:00.791][ERROR][com.cmt.vending.server.LocalServer-91] [setModelFromGpio]Failed to get GPIO: 
+java.lang.UnsatisfiedLinkError: no gpio in java.library.path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+	at java.base/java.lang.ClassLoader.loadLibrary(ClassLoader.java:2434) ~[?:?]
+	at java.base/java.lang.Runtime.loadLibrary0(Runtime.java:818) ~[?:?]
+	at java.base/java.lang.System.loadLibrary(System.java:1993) ~[?:?]
+	at com.cmt.vending.server.gpio.GPIOCtrl.<clinit>(GPIOCtrl.java:5) ~[classes/:?]
+	at com.cmt.vending.server.LocalServer.setModelFromGpio(LocalServer.java:88) [classes/:?]
+	at com.cmt.vending.server.LocalServer.loadConfig(LocalServer.java:73) [classes/:?]
+	at com.cmt.vending.server.LocalServer.main(LocalServer.java:160) [classes/:?]
+[25/02/27 11:19:00.798][INFO][com.cmt.vending.server.LocalServer-95] [setModelFromGpio]GPIO Value: 0
+[25/02/27 11:19:00.800][ERROR][com.cmt.vending.server.LocalServer-108] [setModelFromGpio]Unknown GPIO Value 0 so the model is keep as setting in vm.properties: MQ_1
+[25/02/27 11:19:00.800][INFO][com.cmt.vending.server.config.LocalServerConfig-47] VM.ID: 1
+[25/02/27 11:19:00.800][INFO][com.cmt.vending.server.config.LocalServerConfig-49] VM.MODEL: MQ_1
+[25/02/27 11:19:00.801][INFO][com.cmt.vending.server.config.LocalServerConfig-50] VM.ENVIRONMENT: DEV
+[25/02/27 11:19:00.801][INFO][com.cmt.vending.server.config.LocalServerConfig-51] VM.REGION: HK
+[25/02/27 11:19:00.801][INFO][com.cmt.vending.server.config.LocalServerConfig-52] VM.CLIENT: SVM
+[25/02/27 11:19:00.801][INFO][com.cmt.vending.server.operation.BackendServerComm-49] API_HOST: svm.365vending.net
+[25/02/27 11:19:00.801][INFO][com.cmt.vending.server.operation.BackendServerComm-50] API_PORT: 443
+[25/02/27 11:19:00.802][INFO][com.cmt.vending.server.operation.BackendServerComm-51] API_TIMEOUT_MS : 30000
+[25/02/27 11:19:00.802][INFO][com.cmt.vending.server.operation.BackendServerComm-52] INSTANCE: svm
+[25/02/27 11:19:00.803][INFO][com.cmt.vending.server.operation.BackendServerComm-53] INSTANCE_WS: cmt
+[25/02/27 11:19:00.803][INFO][com.cmt.vending.server.operation.BackendServerComm-54] TRUST_STORE: /opt/vending/vendingclient.jks.PRD
+[25/02/27 11:19:00.803][INFO][com.cmt.vending.server.operation.BackendServerComm-55] NETWORK_DISABLE_DURATION_MIN: 90
+[25/02/27 11:19:00.803][INFO][com.cmt.vending.server.operation.SFTPComm-39] SFTP_HOST: svm.365vending.net
+[25/02/27 11:19:00.803][INFO][com.cmt.vending.server.operation.SFTPComm-40] SFTP_PORT: 22
+[25/02/27 11:19:00.803][INFO][com.cmt.vending.server.operation.SFTPComm-41] SFTP_USERNAME: vendingcmt
+[25/02/27 11:19:00.803][INFO][com.cmt.vending.server.operation.SFTPComm-42] SFTP_PW: CMTech@2019*
+[25/02/27 11:19:00.803][INFO][com.cmt.vending.server.operation.SFTPComm-43] SFTP_DOWNLOAD_PATH: /opt/vending-cmt/media
+[25/02/27 11:19:00.804][INFO][com.cmt.vending.server.operation.ResourceManager-46] INFO_FOLDER: /opt/vending/RESOURCE/INFO/
+[25/02/27 11:19:00.804][INFO][com.cmt.vending.server.operation.ResourceManager-47] PRODUCT_ICON_FOLDER: /home/june/Desktop/conventional-frontend-ui/public/assets/media/productIcon
+[25/02/27 11:19:00.804][INFO][com.cmt.vending.server.operation.ResourceManager-48] PRODUCT_IMAGE_FOLDER : /home/june/Desktop/conventional-frontend-ui/public/assets/media/productImage
+[25/02/27 11:19:00.804][INFO][com.cmt.vending.server.operation.ResourceManager-49] PRODUCT_VIDEO_FOLDER : /home/june/Desktop/conventional-frontend-ui/public/assets/media/playlist
+[25/02/27 11:19:00.804][INFO][com.cmt.vending.server.operation.ResourceManager-50] TAB_ICON_FOLDER: /home/june/Desktop/conventional-frontend-ui/public/assets/media/tabIcon
+[25/02/27 11:19:00.804][INFO][com.cmt.vending.server.operation.ResourceManager-51] PLAYLIST_VIDEO_FOLDER: /home/june/Desktop/conventional-frontend-ui/public/assets/media/playlist
+[25/02/27 11:19:00.805][INFO][com.cmt.vending.server.config.VmcConfig-34] VMC.COMM_DEV: /dev/ttyUSB
+[25/02/27 11:19:00.805][INFO][com.cmt.vending.server.config.VmcConfig-35] VMC.COMM_PORT: 0
+[25/02/27 11:19:00.805][INFO][com.cmt.vending.server.config.VmcConfig-36] VMC.BAUD_RATE: 9600
+[25/02/27 11:20:09.296][INFO][com.cmt.vending.server.LocalServer-48] [loadConfig]Start to load configuration
+[25/02/27 11:20:09.299][INFO][com.cmt.vending.server.LocalServer-56] [loadConfig]Loading Client Config ( /opt/vending/vm.properties )
+[25/02/27 11:20:47.620][INFO][com.cmt.vending.server.LocalServer-60] [loadConfig]Loading Network Config ( /opt/vending/network.properties )
+[25/02/27 11:20:47.629][INFO][com.cmt.vending.server.LocalServer-63] [loadConfig]Loading Resource Config ( /opt/vending/resource.properties )
+[25/02/27 11:20:47.630][INFO][com.cmt.vending.server.LocalServer-66] [loadConfig]Loading Global Config ( /opt/vending/vmc.properties )
+[25/02/27 11:20:47.631][ERROR][com.cmt.vending.server.LocalServer-91] [setModelFromGpio]Failed to get GPIO: 
+java.lang.UnsatisfiedLinkError: no gpio in java.library.path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+	at java.base/java.lang.ClassLoader.loadLibrary(ClassLoader.java:2434) ~[?:?]
+	at java.base/java.lang.Runtime.loadLibrary0(Runtime.java:818) ~[?:?]
+	at java.base/java.lang.System.loadLibrary(System.java:1993) ~[?:?]
+	at com.cmt.vending.server.gpio.GPIOCtrl.<clinit>(GPIOCtrl.java:5) ~[classes/:?]
+	at com.cmt.vending.server.LocalServer.setModelFromGpio(LocalServer.java:88) [classes/:?]
+	at com.cmt.vending.server.LocalServer.loadConfig(LocalServer.java:73) [classes/:?]
+	at com.cmt.vending.server.LocalServer.main(LocalServer.java:160) [classes/:?]
+[25/02/27 11:20:49.272][INFO][com.cmt.vending.server.LocalServer-48] [loadConfig]Start to load configuration
+[25/02/27 11:20:49.275][INFO][com.cmt.vending.server.LocalServer-56] [loadConfig]Loading Client Config ( /opt/vending/vm.properties )
+[25/02/27 11:22:07.959][INFO][com.cmt.vending.server.LocalServer-60] [loadConfig]Loading Network Config ( /opt/vending/network.properties )
+[25/02/27 11:22:07.980][INFO][com.cmt.vending.server.LocalServer-63] [loadConfig]Loading Resource Config ( /opt/vending/resource.properties )
+[25/02/27 11:22:07.981][INFO][com.cmt.vending.server.LocalServer-66] [loadConfig]Loading Global Config ( /opt/vending/vmc.properties )
+[25/02/27 11:22:07.982][ERROR][com.cmt.vending.server.LocalServer-91] [setModelFromGpio]Failed to get GPIO: 
+java.lang.UnsatisfiedLinkError: no gpio in java.library.path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+	at java.base/java.lang.ClassLoader.loadLibrary(ClassLoader.java:2434) ~[?:?]
+	at java.base/java.lang.Runtime.loadLibrary0(Runtime.java:818) ~[?:?]
+	at java.base/java.lang.System.loadLibrary(System.java:1993) ~[?:?]
+	at com.cmt.vending.server.gpio.GPIOCtrl.<clinit>(GPIOCtrl.java:5) ~[classes/:?]
+	at com.cmt.vending.server.LocalServer.setModelFromGpio(LocalServer.java:88) [classes/:?]
+	at com.cmt.vending.server.LocalServer.loadConfig(LocalServer.java:73) [classes/:?]
+	at com.cmt.vending.server.LocalServer.main(LocalServer.java:160) [classes/:?]
+[25/02/27 11:22:09.615][INFO][com.cmt.vending.server.LocalServer-48] [loadConfig]Start to load configuration
+[25/02/27 11:22:09.618][INFO][com.cmt.vending.server.LocalServer-56] [loadConfig]Loading Client Config ( /opt/vending/vm.properties )
+[25/02/27 11:22:17.623][INFO][com.cmt.vending.server.LocalServer-60] [loadConfig]Loading Network Config ( /opt/vending/network.properties )
+[25/02/27 11:22:17.649][INFO][com.cmt.vending.server.LocalServer-63] [loadConfig]Loading Resource Config ( /opt/vending/resource.properties )
+[25/02/27 11:22:17.650][INFO][com.cmt.vending.server.LocalServer-66] [loadConfig]Loading Global Config ( /opt/vending/vmc.properties )
+[25/02/27 11:22:17.650][ERROR][com.cmt.vending.server.LocalServer-91] [setModelFromGpio]Failed to get GPIO: 
+java.lang.UnsatisfiedLinkError: no gpio in java.library.path: /usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib
+	at java.base/java.lang.ClassLoader.loadLibrary(ClassLoader.java:2434) ~[?:?]
+	at java.base/java.lang.Runtime.loadLibrary0(Runtime.java:818) ~[?:?]
+	at java.base/java.lang.System.loadLibrary(System.java:1993) ~[?:?]
+	at com.cmt.vending.server.gpio.GPIOCtrl.<clinit>(GPIOCtrl.java:5) ~[classes/:?]
+	at com.cmt.vending.server.LocalServer.setModelFromGpio(LocalServer.java:88) [classes/:?]
+	at com.cmt.vending.server.LocalServer.loadConfig(LocalServer.java:73) [classes/:?]
+	at com.cmt.vending.server.LocalServer.main(LocalServer.java:160) [classes/:?]
+[25/02/27 11:22:17.670][INFO][com.cmt.vending.server.LocalServer-95] [setModelFromGpio]GPIO Value: 0
+[25/02/27 11:22:17.671][ERROR][com.cmt.vending.server.LocalServer-108] [setModelFromGpio]Unknown GPIO Value 0 so the model is keep as setting in vm.properties: MQ_1
+[25/02/27 11:22:17.672][INFO][com.cmt.vending.server.config.LocalServerConfig-47] VM.ID: 61
+[25/02/27 11:22:17.672][INFO][com.cmt.vending.server.config.LocalServerConfig-48] VM.MODEL: MQ_1
+[25/02/27 11:22:17.672][INFO][com.cmt.vending.server.config.LocalServerConfig-49] VM.ENVIRONMENT: DEV
+[25/02/27 11:22:17.673][INFO][com.cmt.vending.server.config.LocalServerConfig-50] VM.REGION: HK
+[25/02/27 11:22:17.673][INFO][com.cmt.vending.server.config.LocalServerConfig-51] VM.CLIENT: SVM
+[25/02/27 11:22:17.673][INFO][com.cmt.vending.server.operation.BackendServerComm-49] API_HOST: svm.365vending.net
+[25/02/27 11:22:17.673][INFO][com.cmt.vending.server.operation.BackendServerComm-50] API_PORT: 443
+[25/02/27 11:22:17.674][INFO][com.cmt.vending.server.operation.BackendServerComm-51] API_TIMEOUT_MS : 30000
+[25/02/27 11:22:17.674][INFO][com.cmt.vending.server.operation.BackendServerComm-52] INSTANCE: svm
+[25/02/27 11:22:17.675][INFO][com.cmt.vending.server.operation.BackendServerComm-53] INSTANCE_WS: cmt
+[25/02/27 11:22:17.675][INFO][com.cmt.vending.server.operation.BackendServerComm-54] TRUST_STORE: /opt/vending/vendingclient.jks.PRD
+[25/02/27 11:22:17.675][INFO][com.cmt.vending.server.operation.BackendServerComm-55] NETWORK_DISABLE_DURATION_MIN: 90
+[25/02/27 11:22:17.675][INFO][com.cmt.vending.server.operation.SFTPComm-39] SFTP_HOST: svm.365vending.net
+[25/02/27 11:22:17.675][INFO][com.cmt.vending.server.operation.SFTPComm-40] SFTP_PORT: 22
+[25/02/27 11:22:17.675][INFO][com.cmt.vending.server.operation.SFTPComm-41] SFTP_USERNAME: vendingcmt
+[25/02/27 11:22:17.675][INFO][com.cmt.vending.server.operation.SFTPComm-42] SFTP_PW: CMTech@2019*
+[25/02/27 11:22:17.675][INFO][com.cmt.vending.server.operation.SFTPComm-43] SFTP_DOWNLOAD_PATH: /opt/vending-cmt/media
+[25/02/27 11:22:17.676][INFO][com.cmt.vending.server.operation.ResourceManager-46] INFO_FOLDER: /opt/vending/RESOURCE/INFO/
+[25/02/27 11:22:17.676][INFO][com.cmt.vending.server.operation.ResourceManager-47] PRODUCT_ICON_FOLDER: /home/june/Desktop/conventional-frontend-ui/public/assets/media/productIcon
+[25/02/27 11:22:17.676][INFO][com.cmt.vending.server.operation.ResourceManager-48] PRODUCT_IMAGE_FOLDER : /home/june/Desktop/conventional-frontend-ui/public/assets/media/productImage
+[25/02/27 11:22:17.676][INFO][com.cmt.vending.server.operation.ResourceManager-49] PRODUCT_VIDEO_FOLDER : /home/june/Desktop/conventional-frontend-ui/public/assets/media/playlist
+[25/02/27 11:22:17.676][INFO][com.cmt.vending.server.operation.ResourceManager-50] TAB_ICON_FOLDER: /home/june/Desktop/conventional-frontend-ui/public/assets/media/tabIcon
+[25/02/27 11:22:17.676][INFO][com.cmt.vending.server.operation.ResourceManager-51] PLAYLIST_VIDEO_FOLDER: /home/june/Desktop/conventional-frontend-ui/public/assets/media/playlist
+[25/02/27 11:22:17.676][INFO][com.cmt.vending.server.config.VmcConfig-34] VMC.COMM_DEV: /dev/ttyUSB
+[25/02/27 11:22:17.676][INFO][com.cmt.vending.server.config.VmcConfig-35] VMC.COMM_PORT: 0
+[25/02/27 11:22:17.677][INFO][com.cmt.vending.server.config.VmcConfig-36] VMC.BAUD_RATE: 9600

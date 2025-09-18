@@ -1,0 +1,1911 @@
+
+/**
+ * ValidateServiceReq.java
+ *
+ * This file was auto-generated from WSDL
+ * by the Apache Axis2 version: 1.6.2  Built on : Apr 17, 2012 (05:34:40 IST)
+ */
+
+            
+                package com.cmt.vending.ws.obj.xsd;
+            
+
+            /**
+            *  ValidateServiceReq bean class
+            */
+            @SuppressWarnings({"unchecked","unused"})
+        
+        public  class ValidateServiceReq extends com.cmt.vending.ws.obj.xsd.WsReq
+        implements org.apache.axis2.databinding.ADBBean{
+        /* This type was generated from the piece of schema that had
+                name = ValidateServiceReq
+                Namespace URI = http://obj.ws.vending.cmt.com/xsd
+                Namespace Prefix = ns1
+                */
+            
+
+                        /**
+                        * field for Amount
+                        */
+
+                        
+                                    protected java.math.BigDecimal localAmount ;
+                                
+                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                          *   for this attribute. It will be used to determine whether to include this field
+                           *   in the serialized XML
+                           */
+                           protected boolean localAmountTracker = false ;
+
+                           public boolean isAmountSpecified(){
+                               return localAmountTracker;
+                           }
+
+                           
+
+                           /**
+                           * Auto generated getter method
+                           * @return java.math.BigDecimal
+                           */
+                           public  java.math.BigDecimal getAmount(){
+                               return localAmount;
+                           }
+
+                           
+                        
+                            /**
+                               * Auto generated setter method
+                               * @param param Amount
+                               */
+                               public void setAmount(java.math.BigDecimal param){
+                            localAmountTracker = true;
+                                   
+                                            this.localAmount=param;
+                                    
+
+                               }
+                            
+
+                        /**
+                        * field for Data1
+                        */
+
+                        
+                                    protected java.lang.String localData1 ;
+                                
+                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                          *   for this attribute. It will be used to determine whether to include this field
+                           *   in the serialized XML
+                           */
+                           protected boolean localData1Tracker = false ;
+
+                           public boolean isData1Specified(){
+                               return localData1Tracker;
+                           }
+
+                           
+
+                           /**
+                           * Auto generated getter method
+                           * @return java.lang.String
+                           */
+                           public  java.lang.String getData1(){
+                               return localData1;
+                           }
+
+                           
+                        
+                            /**
+                               * Auto generated setter method
+                               * @param param Data1
+                               */
+                               public void setData1(java.lang.String param){
+                            localData1Tracker = true;
+                                   
+                                            this.localData1=param;
+                                    
+
+                               }
+                            
+
+                        /**
+                        * field for Data2
+                        */
+
+                        
+                                    protected java.lang.String localData2 ;
+                                
+                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                          *   for this attribute. It will be used to determine whether to include this field
+                           *   in the serialized XML
+                           */
+                           protected boolean localData2Tracker = false ;
+
+                           public boolean isData2Specified(){
+                               return localData2Tracker;
+                           }
+
+                           
+
+                           /**
+                           * Auto generated getter method
+                           * @return java.lang.String
+                           */
+                           public  java.lang.String getData2(){
+                               return localData2;
+                           }
+
+                           
+                        
+                            /**
+                               * Auto generated setter method
+                               * @param param Data2
+                               */
+                               public void setData2(java.lang.String param){
+                            localData2Tracker = true;
+                                   
+                                            this.localData2=param;
+                                    
+
+                               }
+                            
+
+                        /**
+                        * field for Data3
+                        */
+
+                        
+                                    protected java.lang.String localData3 ;
+                                
+                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                          *   for this attribute. It will be used to determine whether to include this field
+                           *   in the serialized XML
+                           */
+                           protected boolean localData3Tracker = false ;
+
+                           public boolean isData3Specified(){
+                               return localData3Tracker;
+                           }
+
+                           
+
+                           /**
+                           * Auto generated getter method
+                           * @return java.lang.String
+                           */
+                           public  java.lang.String getData3(){
+                               return localData3;
+                           }
+
+                           
+                        
+                            /**
+                               * Auto generated setter method
+                               * @param param Data3
+                               */
+                               public void setData3(java.lang.String param){
+                            localData3Tracker = true;
+                                   
+                                            this.localData3=param;
+                                    
+
+                               }
+                            
+
+                        /**
+                        * field for Data4
+                        */
+
+                        
+                                    protected java.lang.String localData4 ;
+                                
+                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                          *   for this attribute. It will be used to determine whether to include this field
+                           *   in the serialized XML
+                           */
+                           protected boolean localData4Tracker = false ;
+
+                           public boolean isData4Specified(){
+                               return localData4Tracker;
+                           }
+
+                           
+
+                           /**
+                           * Auto generated getter method
+                           * @return java.lang.String
+                           */
+                           public  java.lang.String getData4(){
+                               return localData4;
+                           }
+
+                           
+                        
+                            /**
+                               * Auto generated setter method
+                               * @param param Data4
+                               */
+                               public void setData4(java.lang.String param){
+                            localData4Tracker = true;
+                                   
+                                            this.localData4=param;
+                                    
+
+                               }
+                            
+
+                        /**
+                        * field for Data5
+                        */
+
+                        
+                                    protected java.lang.String localData5 ;
+                                
+                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                          *   for this attribute. It will be used to determine whether to include this field
+                           *   in the serialized XML
+                           */
+                           protected boolean localData5Tracker = false ;
+
+                           public boolean isData5Specified(){
+                               return localData5Tracker;
+                           }
+
+                           
+
+                           /**
+                           * Auto generated getter method
+                           * @return java.lang.String
+                           */
+                           public  java.lang.String getData5(){
+                               return localData5;
+                           }
+
+                           
+                        
+                            /**
+                               * Auto generated setter method
+                               * @param param Data5
+                               */
+                               public void setData5(java.lang.String param){
+                            localData5Tracker = true;
+                                   
+                                            this.localData5=param;
+                                    
+
+                               }
+                            
+
+                        /**
+                        * field for EventType
+                        */
+
+                        
+                                    protected java.lang.String localEventType ;
+                                
+                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                          *   for this attribute. It will be used to determine whether to include this field
+                           *   in the serialized XML
+                           */
+                           protected boolean localEventTypeTracker = false ;
+
+                           public boolean isEventTypeSpecified(){
+                               return localEventTypeTracker;
+                           }
+
+                           
+
+                           /**
+                           * Auto generated getter method
+                           * @return java.lang.String
+                           */
+                           public  java.lang.String getEventType(){
+                               return localEventType;
+                           }
+
+                           
+                        
+                            /**
+                               * Auto generated setter method
+                               * @param param EventType
+                               */
+                               public void setEventType(java.lang.String param){
+                            localEventTypeTracker = true;
+                                   
+                                            this.localEventType=param;
+                                    
+
+                               }
+                            
+
+                        /**
+                        * field for Sid
+                        */
+
+                        
+                                    protected int localSid ;
+                                
+                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                          *   for this attribute. It will be used to determine whether to include this field
+                           *   in the serialized XML
+                           */
+                           protected boolean localSidTracker = false ;
+
+                           public boolean isSidSpecified(){
+                               return localSidTracker;
+                           }
+
+                           
+
+                           /**
+                           * Auto generated getter method
+                           * @return int
+                           */
+                           public  int getSid(){
+                               return localSid;
+                           }
+
+                           
+                        
+                            /**
+                               * Auto generated setter method
+                               * @param param Sid
+                               */
+                               public void setSid(int param){
+                            localSidTracker = true;
+                                   
+                                            this.localSid=param;
+                                    
+
+                               }
+                            
+
+                        /**
+                        * field for Target
+                        */
+
+                        
+                                    protected java.lang.String localTarget ;
+                                
+                           /*  This tracker boolean wil be used to detect whether the user called the set method
+                          *   for this attribute. It will be used to determine whether to include this field
+                           *   in the serialized XML
+                           */
+                           protected boolean localTargetTracker = false ;
+
+                           public boolean isTargetSpecified(){
+                               return localTargetTracker;
+                           }
+
+                           
+
+                           /**
+                           * Auto generated getter method
+                           * @return java.lang.String
+                           */
+                           public  java.lang.String getTarget(){
+                               return localTarget;
+                           }
+
+                           
+                        
+                            /**
+                               * Auto generated setter method
+                               * @param param Target
+                               */
+                               public void setTarget(java.lang.String param){
+                            localTargetTracker = true;
+                                   
+                                            this.localTarget=param;
+                                    
+
+                               }
+                            
+
+     
+     
+        /**
+        *
+        * @param parentQName
+        * @param factory
+        * @return org.apache.axiom.om.OMElement
+        */
+       public org.apache.axiom.om.OMElement getOMElement (
+               final javax.xml.namespace.QName parentQName,
+               final org.apache.axiom.om.OMFactory factory) throws org.apache.axis2.databinding.ADBException{
+
+
+        
+               org.apache.axiom.om.OMDataSource dataSource =
+                       new org.apache.axis2.databinding.ADBDataSource(this,parentQName);
+               return factory.createOMElement(dataSource,parentQName);
+            
+        }
+
+         public void serialize(final javax.xml.namespace.QName parentQName,
+                                       javax.xml.stream.XMLStreamWriter xmlWriter)
+                                throws javax.xml.stream.XMLStreamException, org.apache.axis2.databinding.ADBException{
+                           serialize(parentQName,xmlWriter,false);
+         }
+
+         public void serialize(final javax.xml.namespace.QName parentQName,
+                               javax.xml.stream.XMLStreamWriter xmlWriter,
+                               boolean serializeType)
+            throws javax.xml.stream.XMLStreamException, org.apache.axis2.databinding.ADBException{
+            
+                
+
+
+                java.lang.String prefix = null;
+                java.lang.String namespace = null;
+                
+
+                    prefix = parentQName.getPrefix();
+                    namespace = parentQName.getNamespaceURI();
+                    writeStartElement(prefix, namespace, parentQName.getLocalPart(), xmlWriter);
+                
+
+                   java.lang.String namespacePrefix = registerPrefix(xmlWriter,"http://obj.ws.vending.cmt.com/xsd");
+                   if ((namespacePrefix != null) && (namespacePrefix.trim().length() > 0)){
+                       writeAttribute("xsi","http://www.w3.org/2001/XMLSchema-instance","type",
+                           namespacePrefix+":ValidateServiceReq",
+                           xmlWriter);
+                   } else {
+                       writeAttribute("xsi","http://www.w3.org/2001/XMLSchema-instance","type",
+                           "ValidateServiceReq",
+                           xmlWriter);
+                   }
+
+                if (localCpuUsageTracker){
+                                    namespace = "http://obj.ws.vending.cmt.com/xsd";
+                                    writeStartElement(null, namespace, "cpuUsage", xmlWriter);
+                             
+
+                                          if (localCpuUsage==null){
+                                              // write the nil attribute
+                                              
+                                                     writeAttribute("xsi","http://www.w3.org/2001/XMLSchema-instance","nil","1",xmlWriter);
+                                                  
+                                          }else{
+
+                                        
+                                                   xmlWriter.writeCharacters(localCpuUsage);
+                                            
+                                          }
+                                    
+                                   xmlWriter.writeEndElement();
+                             } if (localExtraParamsTracker){
+                                       if (localExtraParams!=null){
+                                            for (int i = 0;i < localExtraParams.length;i++){
+                                                if (localExtraParams[i] != null){
+                                                 localExtraParams[i].serialize(new javax.xml.namespace.QName("http://obj.ws.vending.cmt.com/xsd","extraParams"),
+                                                           xmlWriter);
+                                                } else {
+                                                   
+                                                            writeStartElement(null, "http://obj.ws.vending.cmt.com/xsd", "extraParams", xmlWriter);
+
+                                                           // write the nil attribute
+                                                           writeAttribute("xsi","http://www.w3.org/2001/XMLSchema-instance","nil","1",xmlWriter);
+                                                           xmlWriter.writeEndElement();
+                                                    
+                                                }
+
+                                            }
+                                     } else {
+                                        
+                                                writeStartElement(null, "http://obj.ws.vending.cmt.com/xsd", "extraParams", xmlWriter);
+
+                                               // write the nil attribute
+                                               writeAttribute("xsi","http://www.w3.org/2001/XMLSchema-instance","nil","1",xmlWriter);
+                                               xmlWriter.writeEndElement();
+                                        
+                                    }
+                                 } if (localMemoryUsageTracker){
+                                    namespace = "http://obj.ws.vending.cmt.com/xsd";
+                                    writeStartElement(null, namespace, "memoryUsage", xmlWriter);
+                             
+
+                                          if (localMemoryUsage==null){
+                                              // write the nil attribute
+                                              
+                                                     writeAttribute("xsi","http://www.w3.org/2001/XMLSchema-instance","nil","1",xmlWriter);
+                                                  
+                                          }else{
+
+                                        
+                                                   xmlWriter.writeCharacters(localMemoryUsage);
+                                            
+                                          }
+                                    
+                                   xmlWriter.writeEndElement();
+                             } if (localRequestDttmTracker){
+                                    namespace = "http://obj.ws.vending.cmt.com/xsd";
+                                    writeStartElement(null, namespace, "requestDttm", xmlWriter);
+                             
+                                               if (localRequestDttm==java.lang.Long.MIN_VALUE) {
+                                           
+                                                         throw new org.apache.axis2.databinding.ADBException("requestDttm cannot be null!!");
+                                                      
+                                               } else {
+                                                    xmlWriter.writeCharacters(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(localRequestDttm));
+                                               }
+                                    
+                                   xmlWriter.writeEndElement();
+                             } if (localRequestVideoListTracker){
+                                    namespace = "http://obj.ws.vending.cmt.com/xsd";
+                                    writeStartElement(null, namespace, "requestVideoList", xmlWriter);
+                             
+                                               if (false) {
+                                           
+                                                         throw new org.apache.axis2.databinding.ADBException("requestVideoList cannot be null!!");
+                                                      
+                                               } else {
+                                                    xmlWriter.writeCharacters(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(localRequestVideoList));
+                                               }
+                                    
+                                   xmlWriter.writeEndElement();
+                             } if (localSignalStrengthTracker){
+                                    namespace = "http://obj.ws.vending.cmt.com/xsd";
+                                    writeStartElement(null, namespace, "signalStrength", xmlWriter);
+                             
+                                               if (localSignalStrength==java.lang.Integer.MIN_VALUE) {
+                                           
+                                                         throw new org.apache.axis2.databinding.ADBException("signalStrength cannot be null!!");
+                                                      
+                                               } else {
+                                                    xmlWriter.writeCharacters(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(localSignalStrength));
+                                               }
+                                    
+                                   xmlWriter.writeEndElement();
+                             } if (localStorageUsageTracker){
+                                    namespace = "http://obj.ws.vending.cmt.com/xsd";
+                                    writeStartElement(null, namespace, "storageUsage", xmlWriter);
+                             
+
+                                          if (localStorageUsage==null){
+                                              // write the nil attribute
+                                              
+                                                     writeAttribute("xsi","http://www.w3.org/2001/XMLSchema-instance","nil","1",xmlWriter);
+                                                  
+                                          }else{
+
+                                        
+                                                   xmlWriter.writeCharacters(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(localStorageUsage));
+                                            
+                                          }
+                                    
+                                   xmlWriter.writeEndElement();
+                             } if (localSwapUsageTracker){
+                                    namespace = "http://obj.ws.vending.cmt.com/xsd";
+                                    writeStartElement(null, namespace, "swapUsage", xmlWriter);
+                             
+
+                                          if (localSwapUsage==null){
+                                              // write the nil attribute
+                                              
+                                                     writeAttribute("xsi","http://www.w3.org/2001/XMLSchema-instance","nil","1",xmlWriter);
+                                                  
+                                          }else{
+
+                                        
+                                                   xmlWriter.writeCharacters(localSwapUsage);
+                                            
+                                          }
+                                    
+                                   xmlWriter.writeEndElement();
+                             } if (localVersionNoTracker){
+                                    namespace = "http://obj.ws.vending.cmt.com/xsd";
+                                    writeStartElement(null, namespace, "versionNo", xmlWriter);
+                             
+
+                                          if (localVersionNo==null){
+                                              // write the nil attribute
+                                              
+                                                     writeAttribute("xsi","http://www.w3.org/2001/XMLSchema-instance","nil","1",xmlWriter);
+                                                  
+                                          }else{
+
+                                        
+                                                   xmlWriter.writeCharacters(localVersionNo);
+                                            
+                                          }
+                                    
+                                   xmlWriter.writeEndElement();
+                             } if (localVmIdTracker){
+                                    namespace = "http://obj.ws.vending.cmt.com/xsd";
+                                    writeStartElement(null, namespace, "vmId", xmlWriter);
+                             
+                                               if (localVmId==java.lang.Integer.MIN_VALUE) {
+                                           
+                                                         throw new org.apache.axis2.databinding.ADBException("vmId cannot be null!!");
+                                                      
+                                               } else {
+                                                    xmlWriter.writeCharacters(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(localVmId));
+                                               }
+                                    
+                                   xmlWriter.writeEndElement();
+                             } if (localVmStatusTracker){
+                                    namespace = "http://obj.ws.vending.cmt.com/xsd";
+                                    writeStartElement(null, namespace, "vmStatus", xmlWriter);
+                             
+
+                                          if (localVmStatus==null){
+                                              // write the nil attribute
+                                              
+                                                     writeAttribute("xsi","http://www.w3.org/2001/XMLSchema-instance","nil","1",xmlWriter);
+                                                  
+                                          }else{
+
+                                        
+                                                   xmlWriter.writeCharacters(localVmStatus);
+                                            
+                                          }
+                                    
+                                   xmlWriter.writeEndElement();
+                             } if (localVmTempTracker){
+                                    namespace = "http://obj.ws.vending.cmt.com/xsd";
+                                    writeStartElement(null, namespace, "vmTemp", xmlWriter);
+                             
+
+                                          if (localVmTemp==null){
+                                              // write the nil attribute
+                                              
+                                                     writeAttribute("xsi","http://www.w3.org/2001/XMLSchema-instance","nil","1",xmlWriter);
+                                                  
+                                          }else{
+
+                                        
+                                                   xmlWriter.writeCharacters(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(localVmTemp));
+                                            
+                                          }
+                                    
+                                   xmlWriter.writeEndElement();
+                             } if (localVmVersionMsTracker){
+                                    namespace = "http://obj.ws.vending.cmt.com/xsd";
+                                    writeStartElement(null, namespace, "vmVersionMs", xmlWriter);
+                             
+                                               if (localVmVersionMs==java.lang.Long.MIN_VALUE) {
+                                           
+                                                         throw new org.apache.axis2.databinding.ADBException("vmVersionMs cannot be null!!");
+                                                      
+                                               } else {
+                                                    xmlWriter.writeCharacters(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(localVmVersionMs));
+                                               }
+                                    
+                                   xmlWriter.writeEndElement();
+                             } if (localAmountTracker){
+                                    namespace = "http://obj.ws.vending.cmt.com/xsd";
+                                    writeStartElement(null, namespace, "amount", xmlWriter);
+                             
+
+                                          if (localAmount==null){
+                                              // write the nil attribute
+                                              
+                                                     writeAttribute("xsi","http://www.w3.org/2001/XMLSchema-instance","nil","1",xmlWriter);
+                                                  
+                                          }else{
+
+                                        
+                                                   xmlWriter.writeCharacters(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(localAmount));
+                                            
+                                          }
+                                    
+                                   xmlWriter.writeEndElement();
+                             } if (localData1Tracker){
+                                    namespace = "http://obj.ws.vending.cmt.com/xsd";
+                                    writeStartElement(null, namespace, "data1", xmlWriter);
+                             
+
+                                          if (localData1==null){
+                                              // write the nil attribute
+                                              
+                                                     writeAttribute("xsi","http://www.w3.org/2001/XMLSchema-instance","nil","1",xmlWriter);
+                                                  
+                                          }else{
+
+                                        
+                                                   xmlWriter.writeCharacters(localData1);
+                                            
+                                          }
+                                    
+                                   xmlWriter.writeEndElement();
+                             } if (localData2Tracker){
+                                    namespace = "http://obj.ws.vending.cmt.com/xsd";
+                                    writeStartElement(null, namespace, "data2", xmlWriter);
+                             
+
+                                          if (localData2==null){
+                                              // write the nil attribute
+                                              
+                                                     writeAttribute("xsi","http://www.w3.org/2001/XMLSchema-instance","nil","1",xmlWriter);
+                                                  
+                                          }else{
+
+                                        
+                                                   xmlWriter.writeCharacters(localData2);
+                                            
+                                          }
+                                    
+                                   xmlWriter.writeEndElement();
+                             } if (localData3Tracker){
+                                    namespace = "http://obj.ws.vending.cmt.com/xsd";
+                                    writeStartElement(null, namespace, "data3", xmlWriter);
+                             
+
+                                          if (localData3==null){
+                                              // write the nil attribute
+                                              
+                                                     writeAttribute("xsi","http://www.w3.org/2001/XMLSchema-instance","nil","1",xmlWriter);
+                                                  
+                                          }else{
+
+                                        
+                                                   xmlWriter.writeCharacters(localData3);
+                                            
+                                          }
+                                    
+                                   xmlWriter.writeEndElement();
+                             } if (localData4Tracker){
+                                    namespace = "http://obj.ws.vending.cmt.com/xsd";
+                                    writeStartElement(null, namespace, "data4", xmlWriter);
+                             
+
+                                          if (localData4==null){
+                                              // write the nil attribute
+                                              
+                                                     writeAttribute("xsi","http://www.w3.org/2001/XMLSchema-instance","nil","1",xmlWriter);
+                                                  
+                                          }else{
+
+                                        
+                                                   xmlWriter.writeCharacters(localData4);
+                                            
+                                          }
+                                    
+                                   xmlWriter.writeEndElement();
+                             } if (localData5Tracker){
+                                    namespace = "http://obj.ws.vending.cmt.com/xsd";
+                                    writeStartElement(null, namespace, "data5", xmlWriter);
+                             
+
+                                          if (localData5==null){
+                                              // write the nil attribute
+                                              
+                                                     writeAttribute("xsi","http://www.w3.org/2001/XMLSchema-instance","nil","1",xmlWriter);
+                                                  
+                                          }else{
+
+                                        
+                                                   xmlWriter.writeCharacters(localData5);
+                                            
+                                          }
+                                    
+                                   xmlWriter.writeEndElement();
+                             } if (localEventTypeTracker){
+                                    namespace = "http://obj.ws.vending.cmt.com/xsd";
+                                    writeStartElement(null, namespace, "eventType", xmlWriter);
+                             
+
+                                          if (localEventType==null){
+                                              // write the nil attribute
+                                              
+                                                     writeAttribute("xsi","http://www.w3.org/2001/XMLSchema-instance","nil","1",xmlWriter);
+                                                  
+                                          }else{
+
+                                        
+                                                   xmlWriter.writeCharacters(localEventType);
+                                            
+                                          }
+                                    
+                                   xmlWriter.writeEndElement();
+                             } if (localSidTracker){
+                                    namespace = "http://obj.ws.vending.cmt.com/xsd";
+                                    writeStartElement(null, namespace, "sid", xmlWriter);
+                             
+                                               if (localSid==java.lang.Integer.MIN_VALUE) {
+                                           
+                                                         writeAttribute("xsi","http://www.w3.org/2001/XMLSchema-instance","nil","1",xmlWriter);
+                                                      
+                                               } else {
+                                                    xmlWriter.writeCharacters(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(localSid));
+                                               }
+                                    
+                                   xmlWriter.writeEndElement();
+                             } if (localTargetTracker){
+                                    namespace = "http://obj.ws.vending.cmt.com/xsd";
+                                    writeStartElement(null, namespace, "target", xmlWriter);
+                             
+
+                                          if (localTarget==null){
+                                              // write the nil attribute
+                                              
+                                                     writeAttribute("xsi","http://www.w3.org/2001/XMLSchema-instance","nil","1",xmlWriter);
+                                                  
+                                          }else{
+
+                                        
+                                                   xmlWriter.writeCharacters(localTarget);
+                                            
+                                          }
+                                    
+                                   xmlWriter.writeEndElement();
+                             }
+                    xmlWriter.writeEndElement();
+               
+
+        }
+
+        private static java.lang.String generatePrefix(java.lang.String namespace) {
+            if(namespace.equals("http://obj.ws.vending.cmt.com/xsd")){
+                return "ns1";
+            }
+            return org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
+        }
+
+        /**
+         * Utility method to write an element start tag.
+         */
+        private void writeStartElement(java.lang.String prefix, java.lang.String namespace, java.lang.String localPart,
+                                       javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
+            java.lang.String writerPrefix = xmlWriter.getPrefix(namespace);
+            if (writerPrefix != null) {
+                xmlWriter.writeStartElement(namespace, localPart);
+            } else {
+                if (namespace.length() == 0) {
+                    prefix = "";
+                } else if (prefix == null) {
+                    prefix = generatePrefix(namespace);
+                }
+
+                xmlWriter.writeStartElement(prefix, localPart, namespace);
+                xmlWriter.writeNamespace(prefix, namespace);
+                xmlWriter.setPrefix(prefix, namespace);
+            }
+        }
+        
+        /**
+         * Util method to write an attribute with the ns prefix
+         */
+        private void writeAttribute(java.lang.String prefix,java.lang.String namespace,java.lang.String attName,
+                                    java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
+            if (xmlWriter.getPrefix(namespace) == null) {
+                xmlWriter.writeNamespace(prefix, namespace);
+                xmlWriter.setPrefix(prefix, namespace);
+            }
+            xmlWriter.writeAttribute(namespace,attName,attValue);
+        }
+
+        /**
+         * Util method to write an attribute without the ns prefix
+         */
+        private void writeAttribute(java.lang.String namespace,java.lang.String attName,
+                                    java.lang.String attValue,javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException{
+            if (namespace.equals("")) {
+                xmlWriter.writeAttribute(attName,attValue);
+            } else {
+                registerPrefix(xmlWriter, namespace);
+                xmlWriter.writeAttribute(namespace,attName,attValue);
+            }
+        }
+
+
+           /**
+             * Util method to write an attribute without the ns prefix
+             */
+            private void writeQNameAttribute(java.lang.String namespace, java.lang.String attName,
+                                             javax.xml.namespace.QName qname, javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
+
+                java.lang.String attributeNamespace = qname.getNamespaceURI();
+                java.lang.String attributePrefix = xmlWriter.getPrefix(attributeNamespace);
+                if (attributePrefix == null) {
+                    attributePrefix = registerPrefix(xmlWriter, attributeNamespace);
+                }
+                java.lang.String attributeValue;
+                if (attributePrefix.trim().length() > 0) {
+                    attributeValue = attributePrefix + ":" + qname.getLocalPart();
+                } else {
+                    attributeValue = qname.getLocalPart();
+                }
+
+                if (namespace.equals("")) {
+                    xmlWriter.writeAttribute(attName, attributeValue);
+                } else {
+                    registerPrefix(xmlWriter, namespace);
+                    xmlWriter.writeAttribute(namespace, attName, attributeValue);
+                }
+            }
+        /**
+         *  method to handle Qnames
+         */
+
+        private void writeQName(javax.xml.namespace.QName qname,
+                                javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
+            java.lang.String namespaceURI = qname.getNamespaceURI();
+            if (namespaceURI != null) {
+                java.lang.String prefix = xmlWriter.getPrefix(namespaceURI);
+                if (prefix == null) {
+                    prefix = generatePrefix(namespaceURI);
+                    xmlWriter.writeNamespace(prefix, namespaceURI);
+                    xmlWriter.setPrefix(prefix,namespaceURI);
+                }
+
+                if (prefix.trim().length() > 0){
+                    xmlWriter.writeCharacters(prefix + ":" + org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qname));
+                } else {
+                    // i.e this is the default namespace
+                    xmlWriter.writeCharacters(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qname));
+                }
+
+            } else {
+                xmlWriter.writeCharacters(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qname));
+            }
+        }
+
+        private void writeQNames(javax.xml.namespace.QName[] qnames,
+                                 javax.xml.stream.XMLStreamWriter xmlWriter) throws javax.xml.stream.XMLStreamException {
+
+            if (qnames != null) {
+                // we have to store this data until last moment since it is not possible to write any
+                // namespace data after writing the charactor data
+                java.lang.StringBuffer stringToWrite = new java.lang.StringBuffer();
+                java.lang.String namespaceURI = null;
+                java.lang.String prefix = null;
+
+                for (int i = 0; i < qnames.length; i++) {
+                    if (i > 0) {
+                        stringToWrite.append(" ");
+                    }
+                    namespaceURI = qnames[i].getNamespaceURI();
+                    if (namespaceURI != null) {
+                        prefix = xmlWriter.getPrefix(namespaceURI);
+                        if ((prefix == null) || (prefix.length() == 0)) {
+                            prefix = generatePrefix(namespaceURI);
+                            xmlWriter.writeNamespace(prefix, namespaceURI);
+                            xmlWriter.setPrefix(prefix,namespaceURI);
+                        }
+
+                        if (prefix.trim().length() > 0){
+                            stringToWrite.append(prefix).append(":").append(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qnames[i]));
+                        } else {
+                            stringToWrite.append(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qnames[i]));
+                        }
+                    } else {
+                        stringToWrite.append(org.apache.axis2.databinding.utils.ConverterUtil.convertToString(qnames[i]));
+                    }
+                }
+                xmlWriter.writeCharacters(stringToWrite.toString());
+            }
+
+        }
+
+
+        /**
+         * Register a namespace prefix
+         */
+        private java.lang.String registerPrefix(javax.xml.stream.XMLStreamWriter xmlWriter, java.lang.String namespace) throws javax.xml.stream.XMLStreamException {
+            java.lang.String prefix = xmlWriter.getPrefix(namespace);
+            if (prefix == null) {
+                prefix = generatePrefix(namespace);
+                javax.xml.namespace.NamespaceContext nsContext = xmlWriter.getNamespaceContext();
+                while (true) {
+                    java.lang.String uri = nsContext.getNamespaceURI(prefix);
+                    if (uri == null || uri.length() == 0) {
+                        break;
+                    }
+                    prefix = org.apache.axis2.databinding.utils.BeanUtil.getUniquePrefix();
+                }
+                xmlWriter.writeNamespace(prefix, namespace);
+                xmlWriter.setPrefix(prefix, namespace);
+            }
+            return prefix;
+        }
+
+
+  
+        /**
+        * databinding method to get an XML representation of this object
+        *
+        */
+        public javax.xml.stream.XMLStreamReader getPullParser(javax.xml.namespace.QName qName)
+                    throws org.apache.axis2.databinding.ADBException{
+
+
+        
+                 java.util.ArrayList elementList = new java.util.ArrayList();
+                 java.util.ArrayList attribList = new java.util.ArrayList();
+
+                
+                    attribList.add(new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema-instance","type"));
+                    attribList.add(new javax.xml.namespace.QName("http://obj.ws.vending.cmt.com/xsd","ValidateServiceReq"));
+                 if (localCpuUsageTracker){
+                                      elementList.add(new javax.xml.namespace.QName("http://obj.ws.vending.cmt.com/xsd",
+                                                                      "cpuUsage"));
+                                 
+                                         elementList.add(localCpuUsage==null?null:
+                                         org.apache.axis2.databinding.utils.ConverterUtil.convertToString(localCpuUsage));
+                                    } if (localExtraParamsTracker){
+                             if (localExtraParams!=null) {
+                                 for (int i = 0;i < localExtraParams.length;i++){
+
+                                    if (localExtraParams[i] != null){
+                                         elementList.add(new javax.xml.namespace.QName("http://obj.ws.vending.cmt.com/xsd",
+                                                                          "extraParams"));
+                                         elementList.add(localExtraParams[i]);
+                                    } else {
+                                        
+                                                elementList.add(new javax.xml.namespace.QName("http://obj.ws.vending.cmt.com/xsd",
+                                                                          "extraParams"));
+                                                elementList.add(null);
+                                            
+                                    }
+
+                                 }
+                             } else {
+                                 
+                                        elementList.add(new javax.xml.namespace.QName("http://obj.ws.vending.cmt.com/xsd",
+                                                                          "extraParams"));
+                                        elementList.add(localExtraParams);
+                                    
+                             }
+
+                        } if (localMemoryUsageTracker){
+                                      elementList.add(new javax.xml.namespace.QName("http://obj.ws.vending.cmt.com/xsd",
+                                                                      "memoryUsage"));
+                                 
+                                         elementList.add(localMemoryUsage==null?null:
+                                         org.apache.axis2.databinding.utils.ConverterUtil.convertToString(localMemoryUsage));
+                                    } if (localRequestDttmTracker){
+                                      elementList.add(new javax.xml.namespace.QName("http://obj.ws.vending.cmt.com/xsd",
+                                                                      "requestDttm"));
+                                 
+                                elementList.add(
+                                   org.apache.axis2.databinding.utils.ConverterUtil.convertToString(localRequestDttm));
+                            } if (localRequestVideoListTracker){
+                                      elementList.add(new javax.xml.namespace.QName("http://obj.ws.vending.cmt.com/xsd",
+                                                                      "requestVideoList"));
+                                 
+                                elementList.add(
+                                   org.apache.axis2.databinding.utils.ConverterUtil.convertToString(localRequestVideoList));
+                            } if (localSignalStrengthTracker){
+                                      elementList.add(new javax.xml.namespace.QName("http://obj.ws.vending.cmt.com/xsd",
+                                                                      "signalStrength"));
+                                 
+                                elementList.add(
+                                   org.apache.axis2.databinding.utils.ConverterUtil.convertToString(localSignalStrength));
+                            } if (localStorageUsageTracker){
+                                      elementList.add(new javax.xml.namespace.QName("http://obj.ws.vending.cmt.com/xsd",
+                                                                      "storageUsage"));
+                                 
+                                         elementList.add(localStorageUsage==null?null:
+                                         org.apache.axis2.databinding.utils.ConverterUtil.convertToString(localStorageUsage));
+                                    } if (localSwapUsageTracker){
+                                      elementList.add(new javax.xml.namespace.QName("http://obj.ws.vending.cmt.com/xsd",
+                                                                      "swapUsage"));
+                                 
+                                         elementList.add(localSwapUsage==null?null:
+                                         org.apache.axis2.databinding.utils.ConverterUtil.convertToString(localSwapUsage));
+                                    } if (localVersionNoTracker){
+                                      elementList.add(new javax.xml.namespace.QName("http://obj.ws.vending.cmt.com/xsd",
+                                                                      "versionNo"));
+                                 
+                                         elementList.add(localVersionNo==null?null:
+                                         org.apache.axis2.databinding.utils.ConverterUtil.convertToString(localVersionNo));
+                                    } if (localVmIdTracker){
+                                      elementList.add(new javax.xml.namespace.QName("http://obj.ws.vending.cmt.com/xsd",
+                                                                      "vmId"));
+                                 
+                                elementList.add(
+                                   org.apache.axis2.databinding.utils.ConverterUtil.convertToString(localVmId));
+                            } if (localVmStatusTracker){
+                                      elementList.add(new javax.xml.namespace.QName("http://obj.ws.vending.cmt.com/xsd",
+                                                                      "vmStatus"));
+                                 
+                                         elementList.add(localVmStatus==null?null:
+                                         org.apache.axis2.databinding.utils.ConverterUtil.convertToString(localVmStatus));
+                                    } if (localVmTempTracker){
+                                      elementList.add(new javax.xml.namespace.QName("http://obj.ws.vending.cmt.com/xsd",
+                                                                      "vmTemp"));
+                                 
+                                         elementList.add(localVmTemp==null?null:
+                                         org.apache.axis2.databinding.utils.ConverterUtil.convertToString(localVmTemp));
+                                    } if (localVmVersionMsTracker){
+                                      elementList.add(new javax.xml.namespace.QName("http://obj.ws.vending.cmt.com/xsd",
+                                                                      "vmVersionMs"));
+                                 
+                                elementList.add(
+                                   org.apache.axis2.databinding.utils.ConverterUtil.convertToString(localVmVersionMs));
+                            } if (localAmountTracker){
+                                      elementList.add(new javax.xml.namespace.QName("http://obj.ws.vending.cmt.com/xsd",
+                                                                      "amount"));
+                                 
+                                         elementList.add(localAmount==null?null:
+                                         org.apache.axis2.databinding.utils.ConverterUtil.convertToString(localAmount));
+                                    } if (localData1Tracker){
+                                      elementList.add(new javax.xml.namespace.QName("http://obj.ws.vending.cmt.com/xsd",
+                                                                      "data1"));
+                                 
+                                         elementList.add(localData1==null?null:
+                                         org.apache.axis2.databinding.utils.ConverterUtil.convertToString(localData1));
+                                    } if (localData2Tracker){
+                                      elementList.add(new javax.xml.namespace.QName("http://obj.ws.vending.cmt.com/xsd",
+                                                                      "data2"));
+                                 
+                                         elementList.add(localData2==null?null:
+                                         org.apache.axis2.databinding.utils.ConverterUtil.convertToString(localData2));
+                                    } if (localData3Tracker){
+                                      elementList.add(new javax.xml.namespace.QName("http://obj.ws.vending.cmt.com/xsd",
+                                                                      "data3"));
+                                 
+                                         elementList.add(localData3==null?null:
+                                         org.apache.axis2.databinding.utils.ConverterUtil.convertToString(localData3));
+                                    } if (localData4Tracker){
+                                      elementList.add(new javax.xml.namespace.QName("http://obj.ws.vending.cmt.com/xsd",
+                                                                      "data4"));
+                                 
+                                         elementList.add(localData4==null?null:
+                                         org.apache.axis2.databinding.utils.ConverterUtil.convertToString(localData4));
+                                    } if (localData5Tracker){
+                                      elementList.add(new javax.xml.namespace.QName("http://obj.ws.vending.cmt.com/xsd",
+                                                                      "data5"));
+                                 
+                                         elementList.add(localData5==null?null:
+                                         org.apache.axis2.databinding.utils.ConverterUtil.convertToString(localData5));
+                                    } if (localEventTypeTracker){
+                                      elementList.add(new javax.xml.namespace.QName("http://obj.ws.vending.cmt.com/xsd",
+                                                                      "eventType"));
+                                 
+                                         elementList.add(localEventType==null?null:
+                                         org.apache.axis2.databinding.utils.ConverterUtil.convertToString(localEventType));
+                                    } if (localSidTracker){
+                                      elementList.add(new javax.xml.namespace.QName("http://obj.ws.vending.cmt.com/xsd",
+                                                                      "sid"));
+                                 
+                                elementList.add(
+                                   org.apache.axis2.databinding.utils.ConverterUtil.convertToString(localSid));
+                            } if (localTargetTracker){
+                                      elementList.add(new javax.xml.namespace.QName("http://obj.ws.vending.cmt.com/xsd",
+                                                                      "target"));
+                                 
+                                         elementList.add(localTarget==null?null:
+                                         org.apache.axis2.databinding.utils.ConverterUtil.convertToString(localTarget));
+                                    }
+
+                return new org.apache.axis2.databinding.utils.reader.ADBXMLStreamReaderImpl(qName, elementList.toArray(), attribList.toArray());
+            
+            
+
+        }
+
+  
+
+     /**
+      *  Factory class that keeps the parse method
+      */
+    public static class Factory{
+
+        
+        
+
+        /**
+        * static method to create the object
+        * Precondition:  If this object is an element, the current or next start element starts this object and any intervening reader events are ignorable
+        *                If this object is not an element, it is a complex type and the reader is at the event just after the outer start element
+        * Postcondition: If this object is an element, the reader is positioned at its end element
+        *                If this object is a complex type, the reader is positioned at the end element of its outer element
+        */
+        public static ValidateServiceReq parse(javax.xml.stream.XMLStreamReader reader) throws java.lang.Exception{
+            ValidateServiceReq object =
+                new ValidateServiceReq();
+
+            int event;
+            java.lang.String nillableValue = null;
+            java.lang.String prefix ="";
+            java.lang.String namespaceuri ="";
+            try {
+                
+                while (!reader.isStartElement() && !reader.isEndElement())
+                    reader.next();
+
+                
+                if (reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance","type")!=null){
+                  java.lang.String fullTypeName = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance",
+                        "type");
+                  if (fullTypeName!=null){
+                    java.lang.String nsPrefix = null;
+                    if (fullTypeName.indexOf(":") > -1){
+                        nsPrefix = fullTypeName.substring(0,fullTypeName.indexOf(":"));
+                    }
+                    nsPrefix = nsPrefix==null?"":nsPrefix;
+
+                    java.lang.String type = fullTypeName.substring(fullTypeName.indexOf(":")+1);
+                    
+                            if (!"ValidateServiceReq".equals(type)){
+                                //find namespace for the prefix
+                                java.lang.String nsUri = reader.getNamespaceContext().getNamespaceURI(nsPrefix);
+                                return (ValidateServiceReq)com.cmt.vending.ws.obj.xsd.ExtensionMapper.getTypeObject(
+                                     nsUri,type,reader);
+                              }
+                        
+
+                  }
+                
+
+                }
+
+                
+
+                
+                // Note all attributes that were handled. Used to differ normal attributes
+                // from anyAttributes.
+                java.util.Vector handledAttributes = new java.util.Vector();
+                
+
+                
+                    
+                    reader.next();
+                
+                        java.util.ArrayList list2 = new java.util.ArrayList();
+                    
+                                    
+                                    while (!reader.isStartElement() && !reader.isEndElement()) reader.next();
+                                
+                                    if (reader.isStartElement() && new javax.xml.namespace.QName("http://obj.ws.vending.cmt.com/xsd","cpuUsage").equals(reader.getName())){
+                                
+                                       nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance","nil");
+                                       if (!"true".equals(nillableValue) && !"1".equals(nillableValue)){
+                                    
+
+                                    java.lang.String content = reader.getElementText();
+                                    
+                                              object.setCpuUsage(
+                                                    org.apache.axis2.databinding.utils.ConverterUtil.convertToString(content));
+                                            
+                                       } else {
+                                           
+                                           
+                                           reader.getElementText(); // throw away text nodes if any.
+                                       }
+                                      
+                                        reader.next();
+                                    
+                              }  // End of if for expected property start element
+                                
+                                    else {
+                                        
+                                    }
+                                
+                                    
+                                    while (!reader.isStartElement() && !reader.isEndElement()) reader.next();
+                                
+                                    if (reader.isStartElement() && new javax.xml.namespace.QName("http://obj.ws.vending.cmt.com/xsd","extraParams").equals(reader.getName())){
+                                
+                                    
+                                    
+                                    // Process the array and step past its final element's end.
+                                    
+                                                          nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance","nil");
+                                                          if ("true".equals(nillableValue) || "1".equals(nillableValue)){
+                                                              list2.add(null);
+                                                              reader.next();
+                                                          } else {
+                                                        list2.add(com.cmt.vending.ws.obj.xsd.ExtraParam.Factory.parse(reader));
+                                                                }
+                                                        //loop until we find a start element that is not part of this array
+                                                        boolean loopDone2 = false;
+                                                        while(!loopDone2){
+                                                            // We should be at the end element, but make sure
+                                                            while (!reader.isEndElement())
+                                                                reader.next();
+                                                            // Step out of this element
+                                                            reader.next();
+                                                            // Step to next element event.
+                                                            while (!reader.isStartElement() && !reader.isEndElement())
+                                                                reader.next();
+                                                            if (reader.isEndElement()){
+                                                                //two continuous end elements means we are exiting the xml structure
+                                                                loopDone2 = true;
+                                                            } else {
+                                                                if (new javax.xml.namespace.QName("http://obj.ws.vending.cmt.com/xsd","extraParams").equals(reader.getName())){
+                                                                    
+                                                                      nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance","nil");
+                                                                      if ("true".equals(nillableValue) || "1".equals(nillableValue)){
+                                                                          list2.add(null);
+                                                                          reader.next();
+                                                                      } else {
+                                                                    list2.add(com.cmt.vending.ws.obj.xsd.ExtraParam.Factory.parse(reader));
+                                                                        }
+                                                                }else{
+                                                                    loopDone2 = true;
+                                                                }
+                                                            }
+                                                        }
+                                                        // call the converter utility  to convert and set the array
+                                                        
+                                                        object.setExtraParams((com.cmt.vending.ws.obj.xsd.ExtraParam[])
+                                                            org.apache.axis2.databinding.utils.ConverterUtil.convertToArray(
+                                                                com.cmt.vending.ws.obj.xsd.ExtraParam.class,
+                                                                list2));
+                                                            
+                              }  // End of if for expected property start element
+                                
+                                    else {
+                                        
+                                    }
+                                
+                                    
+                                    while (!reader.isStartElement() && !reader.isEndElement()) reader.next();
+                                
+                                    if (reader.isStartElement() && new javax.xml.namespace.QName("http://obj.ws.vending.cmt.com/xsd","memoryUsage").equals(reader.getName())){
+                                
+                                       nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance","nil");
+                                       if (!"true".equals(nillableValue) && !"1".equals(nillableValue)){
+                                    
+
+                                    java.lang.String content = reader.getElementText();
+                                    
+                                              object.setMemoryUsage(
+                                                    org.apache.axis2.databinding.utils.ConverterUtil.convertToString(content));
+                                            
+                                       } else {
+                                           
+                                           
+                                           reader.getElementText(); // throw away text nodes if any.
+                                       }
+                                      
+                                        reader.next();
+                                    
+                              }  // End of if for expected property start element
+                                
+                                    else {
+                                        
+                                    }
+                                
+                                    
+                                    while (!reader.isStartElement() && !reader.isEndElement()) reader.next();
+                                
+                                    if (reader.isStartElement() && new javax.xml.namespace.QName("http://obj.ws.vending.cmt.com/xsd","requestDttm").equals(reader.getName())){
+                                
+                                    nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance","nil");
+                                    if ("true".equals(nillableValue) || "1".equals(nillableValue)){
+                                        throw new org.apache.axis2.databinding.ADBException("The element: "+"requestDttm" +"  cannot be null");
+                                    }
+                                    
+
+                                    java.lang.String content = reader.getElementText();
+                                    
+                                              object.setRequestDttm(
+                                                    org.apache.axis2.databinding.utils.ConverterUtil.convertToLong(content));
+                                              
+                                        reader.next();
+                                    
+                              }  // End of if for expected property start element
+                                
+                                    else {
+                                        
+                                               object.setRequestDttm(java.lang.Long.MIN_VALUE);
+                                           
+                                    }
+                                
+                                    
+                                    while (!reader.isStartElement() && !reader.isEndElement()) reader.next();
+                                
+                                    if (reader.isStartElement() && new javax.xml.namespace.QName("http://obj.ws.vending.cmt.com/xsd","requestVideoList").equals(reader.getName())){
+                                
+                                    nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance","nil");
+                                    if ("true".equals(nillableValue) || "1".equals(nillableValue)){
+                                        throw new org.apache.axis2.databinding.ADBException("The element: "+"requestVideoList" +"  cannot be null");
+                                    }
+                                    
+
+                                    java.lang.String content = reader.getElementText();
+                                    
+                                              object.setRequestVideoList(
+                                                    org.apache.axis2.databinding.utils.ConverterUtil.convertToBoolean(content));
+                                              
+                                        reader.next();
+                                    
+                              }  // End of if for expected property start element
+                                
+                                    else {
+                                        
+                                    }
+                                
+                                    
+                                    while (!reader.isStartElement() && !reader.isEndElement()) reader.next();
+                                
+                                    if (reader.isStartElement() && new javax.xml.namespace.QName("http://obj.ws.vending.cmt.com/xsd","signalStrength").equals(reader.getName())){
+                                
+                                    nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance","nil");
+                                    if ("true".equals(nillableValue) || "1".equals(nillableValue)){
+                                        throw new org.apache.axis2.databinding.ADBException("The element: "+"signalStrength" +"  cannot be null");
+                                    }
+                                    
+
+                                    java.lang.String content = reader.getElementText();
+                                    
+                                              object.setSignalStrength(
+                                                    org.apache.axis2.databinding.utils.ConverterUtil.convertToInt(content));
+                                              
+                                        reader.next();
+                                    
+                              }  // End of if for expected property start element
+                                
+                                    else {
+                                        
+                                               object.setSignalStrength(java.lang.Integer.MIN_VALUE);
+                                           
+                                    }
+                                
+                                    
+                                    while (!reader.isStartElement() && !reader.isEndElement()) reader.next();
+                                
+                                    if (reader.isStartElement() && new javax.xml.namespace.QName("http://obj.ws.vending.cmt.com/xsd","storageUsage").equals(reader.getName())){
+                                
+                                       nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance","nil");
+                                       if (!"true".equals(nillableValue) && !"1".equals(nillableValue)){
+                                    
+
+                                    java.lang.String content = reader.getElementText();
+                                    
+                                              object.setStorageUsage(
+                                                    org.apache.axis2.databinding.utils.ConverterUtil.convertToDecimal(content));
+                                            
+                                       } else {
+                                           
+                                           
+                                           reader.getElementText(); // throw away text nodes if any.
+                                       }
+                                      
+                                        reader.next();
+                                    
+                              }  // End of if for expected property start element
+                                
+                                    else {
+                                        
+                                    }
+                                
+                                    
+                                    while (!reader.isStartElement() && !reader.isEndElement()) reader.next();
+                                
+                                    if (reader.isStartElement() && new javax.xml.namespace.QName("http://obj.ws.vending.cmt.com/xsd","swapUsage").equals(reader.getName())){
+                                
+                                       nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance","nil");
+                                       if (!"true".equals(nillableValue) && !"1".equals(nillableValue)){
+                                    
+
+                                    java.lang.String content = reader.getElementText();
+                                    
+                                              object.setSwapUsage(
+                                                    org.apache.axis2.databinding.utils.ConverterUtil.convertToString(content));
+                                            
+                                       } else {
+                                           
+                                           
+                                           reader.getElementText(); // throw away text nodes if any.
+                                       }
+                                      
+                                        reader.next();
+                                    
+                              }  // End of if for expected property start element
+                                
+                                    else {
+                                        
+                                    }
+                                
+                                    
+                                    while (!reader.isStartElement() && !reader.isEndElement()) reader.next();
+                                
+                                    if (reader.isStartElement() && new javax.xml.namespace.QName("http://obj.ws.vending.cmt.com/xsd","versionNo").equals(reader.getName())){
+                                
+                                       nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance","nil");
+                                       if (!"true".equals(nillableValue) && !"1".equals(nillableValue)){
+                                    
+
+                                    java.lang.String content = reader.getElementText();
+                                    
+                                              object.setVersionNo(
+                                                    org.apache.axis2.databinding.utils.ConverterUtil.convertToString(content));
+                                            
+                                       } else {
+                                           
+                                           
+                                           reader.getElementText(); // throw away text nodes if any.
+                                       }
+                                      
+                                        reader.next();
+                                    
+                              }  // End of if for expected property start element
+                                
+                                    else {
+                                        
+                                    }
+                                
+                                    
+                                    while (!reader.isStartElement() && !reader.isEndElement()) reader.next();
+                                
+                                    if (reader.isStartElement() && new javax.xml.namespace.QName("http://obj.ws.vending.cmt.com/xsd","vmId").equals(reader.getName())){
+                                
+                                    nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance","nil");
+                                    if ("true".equals(nillableValue) || "1".equals(nillableValue)){
+                                        throw new org.apache.axis2.databinding.ADBException("The element: "+"vmId" +"  cannot be null");
+                                    }
+                                    
+
+                                    java.lang.String content = reader.getElementText();
+                                    
+                                              object.setVmId(
+                                                    org.apache.axis2.databinding.utils.ConverterUtil.convertToInt(content));
+                                              
+                                        reader.next();
+                                    
+                              }  // End of if for expected property start element
+                                
+                                    else {
+                                        
+                                               object.setVmId(java.lang.Integer.MIN_VALUE);
+                                           
+                                    }
+                                
+                                    
+                                    while (!reader.isStartElement() && !reader.isEndElement()) reader.next();
+                                
+                                    if (reader.isStartElement() && new javax.xml.namespace.QName("http://obj.ws.vending.cmt.com/xsd","vmStatus").equals(reader.getName())){
+                                
+                                       nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance","nil");
+                                       if (!"true".equals(nillableValue) && !"1".equals(nillableValue)){
+                                    
+
+                                    java.lang.String content = reader.getElementText();
+                                    
+                                              object.setVmStatus(
+                                                    org.apache.axis2.databinding.utils.ConverterUtil.convertToString(content));
+                                            
+                                       } else {
+                                           
+                                           
+                                           reader.getElementText(); // throw away text nodes if any.
+                                       }
+                                      
+                                        reader.next();
+                                    
+                              }  // End of if for expected property start element
+                                
+                                    else {
+                                        
+                                    }
+                                
+                                    
+                                    while (!reader.isStartElement() && !reader.isEndElement()) reader.next();
+                                
+                                    if (reader.isStartElement() && new javax.xml.namespace.QName("http://obj.ws.vending.cmt.com/xsd","vmTemp").equals(reader.getName())){
+                                
+                                       nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance","nil");
+                                       if (!"true".equals(nillableValue) && !"1".equals(nillableValue)){
+                                    
+
+                                    java.lang.String content = reader.getElementText();
+                                    
+                                              object.setVmTemp(
+                                                    org.apache.axis2.databinding.utils.ConverterUtil.convertToDecimal(content));
+                                            
+                                       } else {
+                                           
+                                           
+                                           reader.getElementText(); // throw away text nodes if any.
+                                       }
+                                      
+                                        reader.next();
+                                    
+                              }  // End of if for expected property start element
+                                
+                                    else {
+                                        
+                                    }
+                                
+                                    
+                                    while (!reader.isStartElement() && !reader.isEndElement()) reader.next();
+                                
+                                    if (reader.isStartElement() && new javax.xml.namespace.QName("http://obj.ws.vending.cmt.com/xsd","vmVersionMs").equals(reader.getName())){
+                                
+                                    nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance","nil");
+                                    if ("true".equals(nillableValue) || "1".equals(nillableValue)){
+                                        throw new org.apache.axis2.databinding.ADBException("The element: "+"vmVersionMs" +"  cannot be null");
+                                    }
+                                    
+
+                                    java.lang.String content = reader.getElementText();
+                                    
+                                              object.setVmVersionMs(
+                                                    org.apache.axis2.databinding.utils.ConverterUtil.convertToLong(content));
+                                              
+                                        reader.next();
+                                    
+                              }  // End of if for expected property start element
+                                
+                                    else {
+                                        
+                                               object.setVmVersionMs(java.lang.Long.MIN_VALUE);
+                                           
+                                    }
+                                
+                                    
+                                    while (!reader.isStartElement() && !reader.isEndElement()) reader.next();
+                                
+                                    if (reader.isStartElement() && new javax.xml.namespace.QName("http://obj.ws.vending.cmt.com/xsd","amount").equals(reader.getName())){
+                                
+                                       nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance","nil");
+                                       if (!"true".equals(nillableValue) && !"1".equals(nillableValue)){
+                                    
+
+                                    java.lang.String content = reader.getElementText();
+                                    
+                                              object.setAmount(
+                                                    org.apache.axis2.databinding.utils.ConverterUtil.convertToDecimal(content));
+                                            
+                                       } else {
+                                           
+                                           
+                                           reader.getElementText(); // throw away text nodes if any.
+                                       }
+                                      
+                                        reader.next();
+                                    
+                              }  // End of if for expected property start element
+                                
+                                    else {
+                                        
+                                    }
+                                
+                                    
+                                    while (!reader.isStartElement() && !reader.isEndElement()) reader.next();
+                                
+                                    if (reader.isStartElement() && new javax.xml.namespace.QName("http://obj.ws.vending.cmt.com/xsd","data1").equals(reader.getName())){
+                                
+                                       nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance","nil");
+                                       if (!"true".equals(nillableValue) && !"1".equals(nillableValue)){
+                                    
+
+                                    java.lang.String content = reader.getElementText();
+                                    
+                                              object.setData1(
+                                                    org.apache.axis2.databinding.utils.ConverterUtil.convertToString(content));
+                                            
+                                       } else {
+                                           
+                                           
+                                           reader.getElementText(); // throw away text nodes if any.
+                                       }
+                                      
+                                        reader.next();
+                                    
+                              }  // End of if for expected property start element
+                                
+                                    else {
+                                        
+                                    }
+                                
+                                    
+                                    while (!reader.isStartElement() && !reader.isEndElement()) reader.next();
+                                
+                                    if (reader.isStartElement() && new javax.xml.namespace.QName("http://obj.ws.vending.cmt.com/xsd","data2").equals(reader.getName())){
+                                
+                                       nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance","nil");
+                                       if (!"true".equals(nillableValue) && !"1".equals(nillableValue)){
+                                    
+
+                                    java.lang.String content = reader.getElementText();
+                                    
+                                              object.setData2(
+                                                    org.apache.axis2.databinding.utils.ConverterUtil.convertToString(content));
+                                            
+                                       } else {
+                                           
+                                           
+                                           reader.getElementText(); // throw away text nodes if any.
+                                       }
+                                      
+                                        reader.next();
+                                    
+                              }  // End of if for expected property start element
+                                
+                                    else {
+                                        
+                                    }
+                                
+                                    
+                                    while (!reader.isStartElement() && !reader.isEndElement()) reader.next();
+                                
+                                    if (reader.isStartElement() && new javax.xml.namespace.QName("http://obj.ws.vending.cmt.com/xsd","data3").equals(reader.getName())){
+                                
+                                       nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance","nil");
+                                       if (!"true".equals(nillableValue) && !"1".equals(nillableValue)){
+                                    
+
+                                    java.lang.String content = reader.getElementText();
+                                    
+                                              object.setData3(
+                                                    org.apache.axis2.databinding.utils.ConverterUtil.convertToString(content));
+                                            
+                                       } else {
+                                           
+                                           
+                                           reader.getElementText(); // throw away text nodes if any.
+                                       }
+                                      
+                                        reader.next();
+                                    
+                              }  // End of if for expected property start element
+                                
+                                    else {
+                                        
+                                    }
+                                
+                                    
+                                    while (!reader.isStartElement() && !reader.isEndElement()) reader.next();
+                                
+                                    if (reader.isStartElement() && new javax.xml.namespace.QName("http://obj.ws.vending.cmt.com/xsd","data4").equals(reader.getName())){
+                                
+                                       nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance","nil");
+                                       if (!"true".equals(nillableValue) && !"1".equals(nillableValue)){
+                                    
+
+                                    java.lang.String content = reader.getElementText();
+                                    
+                                              object.setData4(
+                                                    org.apache.axis2.databinding.utils.ConverterUtil.convertToString(content));
+                                            
+                                       } else {
+                                           
+                                           
+                                           reader.getElementText(); // throw away text nodes if any.
+                                       }
+                                      
+                                        reader.next();
+                                    
+                              }  // End of if for expected property start element
+                                
+                                    else {
+                                        
+                                    }
+                                
+                                    
+                                    while (!reader.isStartElement() && !reader.isEndElement()) reader.next();
+                                
+                                    if (reader.isStartElement() && new javax.xml.namespace.QName("http://obj.ws.vending.cmt.com/xsd","data5").equals(reader.getName())){
+                                
+                                       nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance","nil");
+                                       if (!"true".equals(nillableValue) && !"1".equals(nillableValue)){
+                                    
+
+                                    java.lang.String content = reader.getElementText();
+                                    
+                                              object.setData5(
+                                                    org.apache.axis2.databinding.utils.ConverterUtil.convertToString(content));
+                                            
+                                       } else {
+                                           
+                                           
+                                           reader.getElementText(); // throw away text nodes if any.
+                                       }
+                                      
+                                        reader.next();
+                                    
+                              }  // End of if for expected property start element
+                                
+                                    else {
+                                        
+                                    }
+                                
+                                    
+                                    while (!reader.isStartElement() && !reader.isEndElement()) reader.next();
+                                
+                                    if (reader.isStartElement() && new javax.xml.namespace.QName("http://obj.ws.vending.cmt.com/xsd","eventType").equals(reader.getName())){
+                                
+                                       nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance","nil");
+                                       if (!"true".equals(nillableValue) && !"1".equals(nillableValue)){
+                                    
+
+                                    java.lang.String content = reader.getElementText();
+                                    
+                                              object.setEventType(
+                                                    org.apache.axis2.databinding.utils.ConverterUtil.convertToString(content));
+                                            
+                                       } else {
+                                           
+                                           
+                                           reader.getElementText(); // throw away text nodes if any.
+                                       }
+                                      
+                                        reader.next();
+                                    
+                              }  // End of if for expected property start element
+                                
+                                    else {
+                                        
+                                    }
+                                
+                                    
+                                    while (!reader.isStartElement() && !reader.isEndElement()) reader.next();
+                                
+                                    if (reader.isStartElement() && new javax.xml.namespace.QName("http://obj.ws.vending.cmt.com/xsd","sid").equals(reader.getName())){
+                                
+                                       nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance","nil");
+                                       if (!"true".equals(nillableValue) && !"1".equals(nillableValue)){
+                                    
+
+                                    java.lang.String content = reader.getElementText();
+                                    
+                                              object.setSid(
+                                                    org.apache.axis2.databinding.utils.ConverterUtil.convertToInt(content));
+                                            
+                                       } else {
+                                           
+                                           
+                                                   object.setSid(java.lang.Integer.MIN_VALUE);
+                                               
+                                           reader.getElementText(); // throw away text nodes if any.
+                                       }
+                                      
+                                        reader.next();
+                                    
+                              }  // End of if for expected property start element
+                                
+                                    else {
+                                        
+                                               object.setSid(java.lang.Integer.MIN_VALUE);
+                                           
+                                    }
+                                
+                                    
+                                    while (!reader.isStartElement() && !reader.isEndElement()) reader.next();
+                                
+                                    if (reader.isStartElement() && new javax.xml.namespace.QName("http://obj.ws.vending.cmt.com/xsd","target").equals(reader.getName())){
+                                
+                                       nillableValue = reader.getAttributeValue("http://www.w3.org/2001/XMLSchema-instance","nil");
+                                       if (!"true".equals(nillableValue) && !"1".equals(nillableValue)){
+                                    
+
+                                    java.lang.String content = reader.getElementText();
+                                    
+                                              object.setTarget(
+                                                    org.apache.axis2.databinding.utils.ConverterUtil.convertToString(content));
+                                            
+                                       } else {
+                                           
+                                           
+                                           reader.getElementText(); // throw away text nodes if any.
+                                       }
+                                      
+                                        reader.next();
+                                    
+                              }  // End of if for expected property start element
+                                
+                                    else {
+                                        
+                                    }
+                                  
+                            while (!reader.isStartElement() && !reader.isEndElement())
+                                reader.next();
+                            
+                                if (reader.isStartElement())
+                                // A start element we are not expecting indicates a trailing invalid property
+                                throw new org.apache.axis2.databinding.ADBException("Unexpected subelement " + reader.getName());
+                            
+
+
+
+            } catch (javax.xml.stream.XMLStreamException e) {
+                throw new java.lang.Exception(e);
+            }
+
+            return object;
+        }
+
+        }//end of factory class
+
+        
+
+        }
+           
+    

@@ -1,0 +1,619 @@
+[24/12/31 16:36:55.733][INFO][com.cmt.vending.server.job.FirmwareUpgradeJob-85] [FirmwareUpgradeJob-call]Start to check firmware version.
+[24/12/31 16:36:55.854][INFO][com.cmt.vending.server.job.FirmwareUpgradeJob-88] [FirmwareUpgradeJob-call]Current Version Code: 00000
+[24/12/31 16:36:55.884][INFO][com.cmt.vending.server.operation.Scheduler-57] [startScheduler] Start init scheduler
+[24/12/31 16:36:55.917][INFO][com.cmt.vending.server.operation.Scheduler-128] [Scheduler] HeartbeatJob: 0 0/1 * * * ?
+[24/12/31 16:36:55.922][INFO][com.cmt.vending.server.operation.Scheduler-132] Tue Dec 31 16:37:00 HKT 2024
+[24/12/31 16:36:55.923][INFO][com.cmt.vending.server.operation.Scheduler-143] [Scheduler] DownloadOctMetaFileJob: 0 2 15 1/1 * ?
+[24/12/31 16:36:55.924][INFO][com.cmt.vending.server.operation.Scheduler-147] Wed Jan 01 15:02:00 HKT 2025
+[24/12/31 16:36:55.924][INFO][com.cmt.vending.server.operation.Scheduler-157] [Scheduler] DownloadOctBlackListJob: 0 20 0/1 * * ?
+[24/12/31 16:36:55.924][INFO][com.cmt.vending.server.operation.Scheduler-161] Tue Dec 31 17:20:00 HKT 2024
+[24/12/31 16:36:55.925][INFO][com.cmt.vending.server.operation.Scheduler-172] [Scheduler] GenerateSettlementFileJob: 0 0 13 1/1 * ?
+[24/12/31 16:36:55.925][INFO][com.cmt.vending.server.operation.Scheduler-176] Wed Jan 01 13:00:00 HKT 2025
+[24/12/31 16:36:55.926][INFO][com.cmt.vending.server.operation.Scheduler-195] [Scheduler] SendAlertJob: 0 25 0 1/1 * ?
+[24/12/31 16:36:55.927][INFO][com.cmt.vending.server.operation.Scheduler-198] Wed Jan 01 00:25:00 HKT 2025
+[24/12/31 16:36:55.927][INFO][com.cmt.vending.server.operation.Scheduler-206] [Scheduler] RebootJob: 0 0 4 1/1 * ?
+[24/12/31 16:36:55.928][INFO][com.cmt.vending.server.operation.Scheduler-209] Wed Jan 01 04:00:00 HKT 2025
+[24/12/31 16:36:55.928][INFO][com.cmt.vending.server.operation.Scheduler-219] [Scheduler] FirmwareUpgradeJob: 0 50 12 1/1 * ?
+[24/12/31 16:36:55.928][INFO][com.cmt.vending.server.operation.Scheduler-223] Wed Jan 01 12:50:00 HKT 2025
+[24/12/31 16:36:55.929][INFO][com.cmt.vending.server.operation.Scheduler-232] [Scheduler] SettlementIuc285Job: 0 30 0 1/1 * ?
+[24/12/31 16:36:55.929][INFO][com.cmt.vending.server.operation.Scheduler-235] Wed Jan 01 00:30:00 HKT 2025
+[24/12/31 16:36:55.986][INFO][com.cmt.vending.server.job.FirmwareUpgradeJob-198] [checkVersion]Retry Count: 1
+[24/12/31 16:36:56.390][INFO][com.cmt.vending.server.job.FirmwareUpgradeJob-209] [checkVersion]Current firmware is the latest, no need to upgrade.
+[24/12/31 16:36:56.623][INFO][com.cmt.vending.server.job.SendAlertJob-63] [addAlert]Add new alert: Type: 6, Alert Time: 1735634216621
+[24/12/31 16:36:56.623][INFO][com.cmt.vending.server.job.SendAlertJob-107] [SendAlertJob-call]Start to upload alert log to server.
+[24/12/31 16:36:56.624][INFO][com.cmt.vending.server.job.SendAlertJob-116] [SendTranJob-call]Num of alert waiting to upload: 1
+[24/12/31 16:36:56.753][INFO][com.cmt.vending.server.job.SendAlertJob-143] [SendAlertJob-call]Upload Alert log Successfully.
+[24/12/31 16:36:56.781][INFO][com.cmt.vending.server.job.SendAlertJob-63] [addAlert]Add new alert: Type: 4, Alert Time: 1735634216781
+[24/12/31 16:36:56.782][INFO][com.cmt.vending.server.job.SendAlertJob-107] [SendAlertJob-call]Start to upload alert log to server.
+[24/12/31 16:36:56.782][INFO][com.cmt.vending.server.job.SendAlertJob-116] [SendTranJob-call]Num of alert waiting to upload: 1
+[24/12/31 16:36:56.911][INFO][com.cmt.vending.server.job.SendAlertJob-143] [SendAlertJob-call]Upload Alert log Successfully.
+[24/12/31 16:36:56.915][INFO][com.cmt.vending.server.job.SendTranJob-33] [SendTranJob-call]Start to upload transaction info to server.
+[24/12/31 16:36:56.915][INFO][com.cmt.vending.server.job.SendTranJob-37] [SendTranJob-call]Trasaction list is empty, Ignore current job.
+[24/12/31 16:36:56.916][INFO][com.cmt.vending.server.job.SendAlertJob-107] [SendAlertJob-call]Start to upload alert log to server.
+[24/12/31 16:36:56.916][INFO][com.cmt.vending.server.job.SendAlertJob-112] [SendAlertJob-call]Alert history list is empty, Ignore current job.
+[24/12/31 16:36:56.917][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 16:36:56.924][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 16:36:57.045][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 16:36:57.045][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 16:36:57.045][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 16:37:00.010][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 16:37:00.026][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 16:37:00.147][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 16:37:00.148][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 16:37:00.148][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 16:38:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 16:38:00.017][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 16:38:00.134][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 16:38:00.135][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 16:38:00.135][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 16:39:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 16:39:00.018][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 16:39:00.140][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 16:39:00.140][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 16:39:00.141][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 16:40:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 16:40:00.011][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 16:40:00.335][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 16:40:00.335][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 16:40:00.335][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 16:41:00.000][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 16:41:00.011][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 16:41:00.118][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 16:41:00.119][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 16:41:00.119][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 16:42:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 16:42:00.009][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 16:42:00.148][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 16:42:00.148][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 16:42:00.148][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 16:43:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 16:43:00.015][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 16:43:00.143][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 16:43:00.144][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 16:43:00.144][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 16:44:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 16:44:00.014][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 16:44:00.116][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 16:44:00.116][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 16:44:00.116][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 16:45:00.002][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 16:45:00.015][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 16:45:01.622][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 16:45:01.622][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 16:45:01.622][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 16:46:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 16:46:00.017][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 16:46:00.121][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 16:46:00.122][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 16:46:00.122][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 16:47:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 16:47:00.016][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 16:47:00.120][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 16:47:00.120][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 16:47:00.120][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 16:48:00.002][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 16:48:00.016][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 16:48:00.487][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 16:48:00.487][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 16:48:00.487][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 16:49:00.000][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 16:49:00.011][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 16:49:00.132][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 16:49:00.132][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 16:49:00.132][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 16:50:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 16:50:00.011][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 16:50:01.096][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 16:50:01.096][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 16:50:01.096][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 16:51:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 16:51:00.011][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 16:51:00.817][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 16:51:00.817][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 16:51:00.817][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 16:52:00.002][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 16:52:00.013][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 16:52:00.124][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 16:52:00.124][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 16:52:00.124][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 16:53:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 16:53:00.006][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 16:53:00.129][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 16:53:00.129][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 16:53:00.129][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 16:54:00.002][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 16:54:00.012][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 16:54:00.131][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 16:54:00.131][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 16:54:00.131][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 16:55:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 16:55:00.012][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 16:55:00.461][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 16:55:00.461][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 16:55:00.461][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 16:56:00.000][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 16:56:00.004][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 16:56:00.110][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 16:56:00.110][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 16:56:00.110][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 16:57:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 16:57:00.012][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 16:57:00.188][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 16:57:00.188][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 16:57:00.188][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 16:58:00.002][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 16:58:00.017][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 16:58:00.134][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 16:58:00.134][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 16:58:00.134][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 16:59:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 16:59:00.017][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 16:59:00.130][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 16:59:00.130][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 16:59:00.130][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:00:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:00:00.015][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:00:01.920][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:00:01.920][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:00:01.920][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:01:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:01:00.016][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:01:00.131][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:01:00.132][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:01:00.132][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:02:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:02:00.008][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:02:00.130][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:02:00.130][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:02:00.130][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:03:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:03:00.012][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:03:00.487][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:03:00.488][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:03:00.488][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:04:00.002][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:04:00.009][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:04:00.134][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:04:00.135][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:04:00.135][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:05:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:05:00.013][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:05:00.258][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:05:00.258][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:05:00.258][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:06:00.002][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:06:00.017][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:06:00.143][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:06:00.143][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:06:00.143][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:07:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:07:00.013][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:07:00.135][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:07:00.135][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:07:00.136][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:08:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:08:00.011][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:08:00.128][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:08:00.129][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:08:00.129][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:09:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:09:00.010][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:09:00.152][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:09:00.152][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:09:00.152][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:10:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:10:00.014][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:10:00.408][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:10:00.409][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:10:00.409][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:11:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:11:00.008][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:11:00.122][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:11:00.122][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:11:00.122][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:12:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:12:00.012][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:12:00.148][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:12:00.148][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:12:00.148][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:13:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:13:00.011][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:13:00.138][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:13:00.138][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:13:00.138][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:14:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:14:00.017][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:14:00.139][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:14:00.139][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:14:00.139][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:15:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:15:00.009][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:15:00.143][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:15:00.143][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:15:00.144][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:16:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:16:00.013][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:16:00.118][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:16:00.118][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:16:00.119][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:17:00.002][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:17:00.010][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:17:00.134][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:17:00.134][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:17:00.134][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:18:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:18:00.006][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:18:00.123][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:18:00.123][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:18:00.123][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:19:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:19:00.011][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:19:00.127][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:19:00.127][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:19:00.127][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:20:00.002][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:20:00.004][INFO][com.cmt.vending.server.job.DownloadOctBlackListJob-57] [DownloadOctMetaFileJob-call]Start to download octopus blacklist file.
+[24/12/31 17:20:00.008][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:20:00.130][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:20:00.130][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:20:00.130][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:21:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:21:00.014][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:21:00.129][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:21:00.129][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:21:00.129][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:22:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:22:00.011][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:22:00.122][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:22:00.123][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:22:00.123][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:23:00.002][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:23:00.007][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:23:00.111][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:23:00.111][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:23:00.111][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:24:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:24:00.007][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:24:00.129][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:24:00.129][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:24:00.129][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:25:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:25:00.008][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:25:00.137][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:25:00.137][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:25:00.137][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:26:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:26:00.008][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:26:00.127][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:26:00.127][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:26:00.127][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:27:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:27:00.010][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:27:00.110][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:27:00.111][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:27:00.111][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:28:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:28:00.012][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:28:00.130][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:28:00.130][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:28:00.130][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:29:00.000][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:29:00.011][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:29:00.135][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:29:00.135][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:29:00.135][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:30:00.000][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:30:00.011][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:30:00.154][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:30:00.154][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:30:00.154][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:31:00.000][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:31:00.006][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:31:00.127][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:31:00.128][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:31:00.128][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:32:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:32:00.010][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:32:00.117][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:32:00.117][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:32:00.117][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:33:00.000][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:33:00.004][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:33:00.108][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:33:00.108][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:33:00.108][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:34:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:34:00.010][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:34:00.138][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:34:00.139][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:34:00.139][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:35:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:35:00.011][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:35:00.138][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:35:00.138][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:35:00.138][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:36:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:36:00.013][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:36:00.127][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:36:00.127][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:36:00.127][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:37:00.000][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:37:00.008][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:37:00.131][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:37:00.132][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:37:00.132][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:38:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:38:00.014][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:38:00.137][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:38:00.137][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:38:00.137][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:39:00.002][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:39:00.009][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:39:00.113][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:39:00.113][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:39:00.113][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:40:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:40:00.008][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:40:00.131][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:40:00.132][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:40:00.132][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:41:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:41:00.007][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:41:00.117][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:41:00.117][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:41:00.117][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:42:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:42:00.010][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:42:00.123][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:42:00.123][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:42:00.123][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:43:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:43:00.009][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:43:00.125][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:43:00.125][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:43:00.125][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:44:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:44:00.013][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:44:00.123][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:44:00.124][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:44:00.124][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:45:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:45:00.017][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:45:00.156][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:45:00.156][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:45:00.156][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:46:00.000][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:46:00.003][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:46:00.118][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:46:00.118][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:46:00.118][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:47:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:47:00.014][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:47:00.126][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:47:00.126][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:47:00.126][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:48:00.000][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:48:00.010][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:48:00.118][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:48:00.119][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:48:00.119][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:49:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:49:00.011][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:49:00.127][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:49:00.127][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:49:00.127][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:50:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:50:00.011][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:50:00.144][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:50:00.144][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:50:00.144][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:51:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:51:00.004][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:51:00.110][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:51:00.110][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:51:00.110][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:52:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:52:00.010][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:52:00.127][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:52:00.127][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:52:00.127][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:53:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:53:00.012][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:53:00.122][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:53:00.123][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:53:00.123][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:54:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:54:00.010][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:54:00.131][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:54:00.131][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:54:00.131][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:55:00.002][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:55:00.012][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:55:00.131][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:55:00.131][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:55:00.131][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:56:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:56:00.010][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:56:00.123][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:56:00.123][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:56:00.123][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:57:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:57:00.013][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:57:00.120][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:57:00.120][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:57:00.120][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:58:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:58:00.010][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:58:00.112][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:58:00.112][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:58:00.112][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 17:59:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 17:59:00.014][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 17:59:00.131][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:59:00.131][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 17:59:00.131][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 18:00:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 18:00:00.013][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 18:00:00.121][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 18:00:00.121][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 18:00:00.121][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 18:01:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 18:01:00.014][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 18:01:00.129][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 18:01:00.129][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 18:01:00.129][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 18:02:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 18:02:00.011][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 18:02:00.127][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 18:02:00.128][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 18:02:00.128][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 18:03:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 18:03:00.011][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 18:03:00.133][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 18:03:00.133][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[24/12/31 18:03:00.133][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[24/12/31 18:05:10.614][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[24/12/31 18:05:10.660][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[24/12/31 18:05:10.672][ERROR][com.cmt.vending.server.job.HeartbeatJob-106] [sendHeartbeat]Failed to complete heartbeat. Retry After 60s : 
+org.apache.axis2.AxisFault: svm.365vending.net
+	at org.apache.axis2.AxisFault.makeFault(AxisFault.java:430) ~[axis2-kernel-1.6.2.jar:1.6.2]
+	at org.apache.axis2.transport.http.HTTPSender.sendViaPost(HTTPSender.java:197) ~[axis2-transport-http-1.6.2.jar:?]
+	at org.apache.axis2.transport.http.HTTPSender.send(HTTPSender.java:75) ~[axis2-transport-http-1.6.2.jar:?]
+	at org.apache.axis2.transport.http.CommonsHTTPTransportSender.writeMessageWithCommons(CommonsHTTPTransportSender.java:404) ~[axis2-transport-http-1.6.2.jar:?]
+	at org.apache.axis2.transport.http.CommonsHTTPTransportSender.invoke(CommonsHTTPTransportSender.java:231) ~[axis2-transport-http-1.6.2.jar:?]
+	at org.apache.axis2.engine.AxisEngine.send(AxisEngine.java:443) ~[axis2-kernel-1.6.2.jar:1.6.2]
+	at org.apache.axis2.description.OutInAxisOperationClient.send(OutInAxisOperation.java:406) ~[axis2-kernel-1.6.2.jar:1.6.2]
+	at org.apache.axis2.description.OutInAxisOperationClient.executeImpl(OutInAxisOperation.java:229) ~[axis2-kernel-1.6.2.jar:1.6.2]
+	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:165) ~[axis2-kernel-1.6.2.jar:1.6.2]
+	at com.cmt.vending.ws.VendingStub.heartbeat(VendingStub.java:1931) ~[CMT_Vending_Client_WS-1.1.2.jar:?]
+	at com.cmt.vending.server.job.HeartbeatJob.sendHeartbeat(HeartbeatJob.java:71) [classes/:?]
+	at com.cmt.vending.server.job.HeartbeatJob.call(HeartbeatJob.java:47) [classes/:?]
+	at com.cmt.vending.server.job.HeartbeatJob.call(HeartbeatJob.java:22) [classes/:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.base/java.lang.Thread.run(Thread.java:842) [?:?]
+Caused by: java.net.UnknownHostException: svm.365vending.net
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:572) ~[?:?]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:633) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.<init>(SSLSocketImpl.java:209) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketFactoryImpl.createSocket(SSLSocketFactoryImpl.java:153) ~[?:?]
+	at org.apache.commons.httpclient.protocol.SSLProtocolSocketFactory.createSocket(SSLProtocolSocketFactory.java:82) ~[commons-httpclient-3.1.jar:?]
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$1.doit(ControllerThreadSocketFactory.java:91) ~[commons-httpclient-3.1.jar:?]
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$SocketTask.run(ControllerThreadSocketFactory.java:158) ~[commons-httpclient-3.1.jar:?]
+	... 1 more
+[25/01/02 10:24:54.093][INFO][com.cmt.vending.server.job.HeartbeatJob-51] [HeartbeatJob-call]Sending heartbeat, Ignore current job. 
+[25/01/02 10:24:54.098][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 2
+[25/01/02 10:24:54.108][INFO][com.cmt.vending.server.job.HeartbeatJob-51] [HeartbeatJob-call]Sending heartbeat, Ignore current job. 
+[25/01/02 10:24:54.125][INFO][com.cmt.vending.server.job.DownloadOctBlackListJob-62] [DownloadOctMetaFileJob-call]Downloading blacklist file, Ignore current job
+[25/01/02 10:24:54.129][ERROR][com.cmt.vending.server.job.HeartbeatJob-106] [sendHeartbeat]Failed to complete heartbeat. Retry After 60s : 
+org.apache.axis2.AxisFault: svm.365vending.net
+	at org.apache.axis2.AxisFault.makeFault(AxisFault.java:430) ~[axis2-kernel-1.6.2.jar:1.6.2]
+	at org.apache.axis2.transport.http.HTTPSender.sendViaPost(HTTPSender.java:197) ~[axis2-transport-http-1.6.2.jar:?]
+	at org.apache.axis2.transport.http.HTTPSender.send(HTTPSender.java:75) ~[axis2-transport-http-1.6.2.jar:?]
+	at org.apache.axis2.transport.http.CommonsHTTPTransportSender.writeMessageWithCommons(CommonsHTTPTransportSender.java:404) ~[axis2-transport-http-1.6.2.jar:?]
+	at org.apache.axis2.transport.http.CommonsHTTPTransportSender.invoke(CommonsHTTPTransportSender.java:231) ~[axis2-transport-http-1.6.2.jar:?]
+	at org.apache.axis2.engine.AxisEngine.send(AxisEngine.java:443) ~[axis2-kernel-1.6.2.jar:1.6.2]
+	at org.apache.axis2.description.OutInAxisOperationClient.send(OutInAxisOperation.java:406) ~[axis2-kernel-1.6.2.jar:1.6.2]
+	at org.apache.axis2.description.OutInAxisOperationClient.executeImpl(OutInAxisOperation.java:229) ~[axis2-kernel-1.6.2.jar:1.6.2]
+	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:165) ~[axis2-kernel-1.6.2.jar:1.6.2]
+	at com.cmt.vending.ws.VendingStub.heartbeat(VendingStub.java:1931) ~[CMT_Vending_Client_WS-1.1.2.jar:?]
+	at com.cmt.vending.server.job.HeartbeatJob.sendHeartbeat(HeartbeatJob.java:71) [classes/:?]
+	at com.cmt.vending.server.job.HeartbeatJob.call(HeartbeatJob.java:47) [classes/:?]
+	at com.cmt.vending.server.job.HeartbeatJob.call(HeartbeatJob.java:22) [classes/:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.base/java.lang.Thread.run(Thread.java:842) [?:?]
+Caused by: java.net.UnknownHostException: svm.365vending.net
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:572) ~[?:?]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:633) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.<init>(SSLSocketImpl.java:209) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketFactoryImpl.createSocket(SSLSocketFactoryImpl.java:153) ~[?:?]
+	at org.apache.commons.httpclient.protocol.SSLProtocolSocketFactory.createSocket(SSLProtocolSocketFactory.java:82) ~[commons-httpclient-3.1.jar:?]
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$1.doit(ControllerThreadSocketFactory.java:91) ~[commons-httpclient-3.1.jar:?]
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$SocketTask.run(ControllerThreadSocketFactory.java:158) ~[commons-httpclient-3.1.jar:?]
+	... 1 more
+[25/01/02 10:24:54.133][INFO][com.cmt.vending.server.job.SendAlertJob-107] [SendAlertJob-call]Start to upload alert log to server.
+[25/01/02 10:24:54.133][INFO][com.cmt.vending.server.job.SendAlertJob-112] [SendAlertJob-call]Alert history list is empty, Ignore current job.
+[25/01/02 10:24:54.134][INFO][com.cmt.vending.server.job.FirmwareUpgradeJob-85] [FirmwareUpgradeJob-call]Start to check firmware version.
+[25/01/02 10:24:54.135][INFO][com.cmt.vending.server.job.FirmwareUpgradeJob-88] [FirmwareUpgradeJob-call]Current Version Code: 00000
+[25/01/02 10:24:54.136][INFO][com.cmt.vending.server.job.SendTranJob-33] [SendTranJob-call]Start to upload transaction info to server.
+[25/01/02 10:24:54.136][INFO][com.cmt.vending.server.job.GenerateSettlementFileJob-37] [GenerateSettlementFileJob-call]Start to generate octopus settlement file.
+[25/01/02 10:24:54.136][INFO][com.cmt.vending.server.job.SendTranJob-37] [SendTranJob-call]Trasaction list is empty, Ignore current job.
+[25/01/02 10:24:54.139][INFO][com.cmt.vending.server.job.DownloadOctMetaFileJob-58] [DownloadOctMetaFileJob-call]Start to download octopus meta file.
+[25/01/02 10:24:54.145][INFO][com.cmt.vending.server.job.FirmwareUpgradeJob-198] [checkVersion]Retry Count: 1
+[25/01/02 10:24:54.148][ERROR][com.cmt.vending.server.job.FirmwareUpgradeJob-314] [checkVersion]Failed to check firmware version. Retry After 30s : 
+org.apache.axis2.AxisFault: svm.365vending.net
+	at org.apache.axis2.AxisFault.makeFault(AxisFault.java:430) ~[axis2-kernel-1.6.2.jar:1.6.2]
+	at org.apache.axis2.transport.http.HTTPSender.sendViaPost(HTTPSender.java:197) ~[axis2-transport-http-1.6.2.jar:?]
+	at org.apache.axis2.transport.http.HTTPSender.send(HTTPSender.java:75) ~[axis2-transport-http-1.6.2.jar:?]
+	at org.apache.axis2.transport.http.CommonsHTTPTransportSender.writeMessageWithCommons(CommonsHTTPTransportSender.java:404) ~[axis2-transport-http-1.6.2.jar:?]
+	at org.apache.axis2.transport.http.CommonsHTTPTransportSender.invoke(CommonsHTTPTransportSender.java:231) ~[axis2-transport-http-1.6.2.jar:?]
+	at org.apache.axis2.engine.AxisEngine.send(AxisEngine.java:443) ~[axis2-kernel-1.6.2.jar:1.6.2]
+	at org.apache.axis2.description.OutInAxisOperationClient.send(OutInAxisOperation.java:406) ~[axis2-kernel-1.6.2.jar:1.6.2]
+	at org.apache.axis2.description.OutInAxisOperationClient.executeImpl(OutInAxisOperation.java:229) ~[axis2-kernel-1.6.2.jar:1.6.2]
+	at org.apache.axis2.client.OperationClient.execute(OperationClient.java:165) ~[axis2-kernel-1.6.2.jar:1.6.2]
+	at com.cmt.vending.ws.VendingStub.checkFirmware(VendingStub.java:317) ~[CMT_Vending_Client_WS-1.1.2.jar:?]
+	at com.cmt.vending.server.job.FirmwareUpgradeJob.checkVersion(FirmwareUpgradeJob.java:201) [classes/:?]
+	at com.cmt.vending.server.job.FirmwareUpgradeJob.call(FirmwareUpgradeJob.java:90) [classes/:?]
+	at com.cmt.vending.server.job.FirmwareUpgradeJob.call(FirmwareUpgradeJob.java:30) [classes/:?]
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) [?:?]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) [?:?]
+	at java.base/java.lang.Thread.run(Thread.java:842) [?:?]
+Caused by: java.net.UnknownHostException: svm.365vending.net
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:572) ~[?:?]
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327) ~[?:?]
+	at java.base/java.net.Socket.connect(Socket.java:633) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(SSLSocketImpl.java:304) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketImpl.<init>(SSLSocketImpl.java:209) ~[?:?]
+	at java.base/sun.security.ssl.SSLSocketFactoryImpl.createSocket(SSLSocketFactoryImpl.java:153) ~[?:?]
+	at org.apache.commons.httpclient.protocol.SSLProtocolSocketFactory.createSocket(SSLProtocolSocketFactory.java:82) ~[commons-httpclient-3.1.jar:?]
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$1.doit(ControllerThreadSocketFactory.java:91) ~[commons-httpclient-3.1.jar:?]
+	at org.apache.commons.httpclient.protocol.ControllerThreadSocketFactory$SocketTask.run(ControllerThreadSocketFactory.java:158) ~[commons-httpclient-3.1.jar:?]
+	... 1 more
+[25/01/02 10:24:54.160][INFO][com.cmt.vending.server.job.GenerateSettlementFileJob-41] [GenerateSettlementFileJob-call]Current settlement file: /opt/octopus/upload/t[Kr
+[25/01/02 10:24:54.161][INFO][com.cmt.vending.server.job.UploadSettlementFileJob-71] [UploadSettlementFileJob-call]Start to upload octopus settlement file.
+[25/01/02 10:24:54.162][INFO][com.cmt.vending.server.job.UploadSettlementFileJob-86] [uploadFile]No need to upload octopus settlement file to server.
+[25/01/02 10:25:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-51] [HeartbeatJob-call]Sending heartbeat, Ignore current job. 
+[25/01/02 10:25:24.149][INFO][com.cmt.vending.server.job.FirmwareUpgradeJob-198] [checkVersion]Retry Count: 2
+[25/01/02 10:25:24.238][INFO][com.cmt.vending.server.job.FirmwareUpgradeJob-209] [checkVersion]Current firmware is the latest, no need to upgrade.
+[25/01/02 10:25:54.130][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 3
+[25/01/02 10:25:54.326][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[25/01/02 10:25:54.326][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[25/01/02 10:25:54.326][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[25/01/02 10:26:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[25/01/02 10:26:00.011][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[25/01/02 10:26:00.119][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[25/01/02 10:26:00.119][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[25/01/02 10:26:00.120][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[25/01/02 10:27:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[25/01/02 10:27:00.008][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[25/01/02 10:27:00.111][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[25/01/02 10:27:00.111][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[25/01/02 10:27:00.112][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[25/01/02 10:28:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[25/01/02 10:28:00.011][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[25/01/02 10:28:00.135][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[25/01/02 10:28:00.135][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[25/01/02 10:28:00.135][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[25/01/02 10:29:00.001][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[25/01/02 10:29:00.010][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[25/01/02 10:29:00.115][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[25/01/02 10:29:00.116][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[25/01/02 10:29:00.116][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[25/01/02 10:30:00.005][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[25/01/02 10:30:00.013][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[25/01/02 10:30:00.122][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[25/01/02 10:30:00.122][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[25/01/02 10:30:00.122][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest
+[25/01/02 10:31:00.000][INFO][com.cmt.vending.server.job.HeartbeatJob-45] [HeartbeatJob-call]Start to send heartbeat to server.
+[25/01/02 10:31:00.005][INFO][com.cmt.vending.server.job.HeartbeatJob-68] [sendHeartbeat]Retry Count: 1
+[25/01/02 10:31:00.098][INFO][com.cmt.vending.server.job.HeartbeatJob-77] [sendHeartbeat]Last data version: 1735539684000, Date: 2024-12-30 14:21:24
+[25/01/02 10:31:00.098][INFO][com.cmt.vending.server.job.HeartbeatJob-78] [sendHeartbeat]Latest data version: 1735539684000, Date: 2024-12-30 14:21:24
+[25/01/02 10:31:00.098][INFO][com.cmt.vending.server.job.HeartbeatJob-82] [sendHeartbeat]Current data version is the latest

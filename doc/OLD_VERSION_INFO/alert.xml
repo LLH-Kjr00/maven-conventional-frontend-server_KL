@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<alertHistory>
+    <alert>
+        <alertTimeMs>1731039570197</alertTimeMs>
+        <alertType>4</alertType>
+        <description>S-&gt;F</description>
+    </alert>
+    <alert>
+        <alertTimeMs>1731039571720</alertTimeMs>
+        <alertType>6</alertType>
+        <description>S -&gt; F</description>
+    </alert>
+</alertHistory>

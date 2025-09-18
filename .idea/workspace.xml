@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1ad86c49-3115-4fdb-9184-a820867565c1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMT_Vending_Client/src/main/java/com/cmt/vending/server/job/RebootVMJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/CMT_Vending_Client/src/main/java/com/cmt/vending/server/job/RebootVMJob.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/CMT_Vending_Client/pom.xml" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5
+}]]></component>
+  <component name="ProjectId" id="2pCOkw5pYaTIs6kBg7MosyJAqrI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "/home/kyapo/Desktop/maven-conventional-frontend-server/Octopus3Lib",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.3368932",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Octopus3Lib" />
+      <recent name="$PROJECT_DIR$/CMT_Vending_Client/src/main/java/com/cmt/vending/server/backendWebSocket/alipay" />
+      <recent name="$PROJECT_DIR$/CMT_Vending_Client/src/main/java/com/cmt/vending/server/backendWebSocket/wechatpay" />
+      <recent name="$PROJECT_DIR$/OctopusLib/src/main/resources" />
+      <recent name="$PROJECT_DIR$/CMT_Vending_Client/src/main/java/com/cmt/vending/server/vmc/jy" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/OctopusLib/src/main/resources/com/cmt/octopus" />
+      <recent name="$PROJECT_DIR$/OctopusLib/src/main/java/com/cmt/octopus" />
+      <recent name="$PROJECT_DIR$/OctopusLib/src/main/resources" />
+      <recent name="$PROJECT_DIR$/CMT_Vending_Client/src/main/resources" />
+      <recent name="$PROJECT_DIR$/CMT_Vending_Client/src/main/webapp/WEB-INF" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="ApplicationListener" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cmt.vending.server.listener.ApplicationListener" />
+      <module name="CMT_Vending_Client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cmt.vending.server.listener.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LocalServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cmt.vending.server.LocalServer" />
+      <module name="CMT_Vending_Client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cmt.vending.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+      <module name="CMTLib" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CMT_Vending_Client-1.0-SNAPSHOT.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/CMT_Vending_Client/target/CMT_Vending_Client-1.0-SNAPSHOT.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration name="CMT_Vending_Client-1.1.2.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/CMT_Vending_Client/target/CMT_Vending_Client-1.1.2.jar" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="CMT_Vending_Client_WS" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="CMT_Vending_Client_WS" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.LocalServer" />
+        <item itemvalue="Application.ApplicationListener" />
+        <item itemvalue="JAR Application.CMT_Vending_Client-1.1.2.jar" />
+        <item itemvalue="JAR Application.CMT_Vending_Client-1.0-SNAPSHOT.jar" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1ad86c49-3115-4fdb-9184-a820867565c1" name="Changes" comment="" />
+      <created>1732266739376</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732266739376</updated>
+      <workItem from="1732266740372" duration="3714000" />
+      <workItem from="1732504217051" duration="63000" />
+      <workItem from="1732504292108" duration="237000" />
+      <workItem from="1732504536273" duration="837000" />
+      <workItem from="1732505378753" duration="3535000" />
+      <workItem from="1732517145539" duration="13098000" />
+      <workItem from="1732590922974" duration="185000" />
+      <workItem from="1732591113557" duration="1216000" />
+      <workItem from="1732592519089" duration="1628000" />
+      <workItem from="1732594153262" duration="5026000" />
+      <workItem from="1732605483243" duration="5198000" />
+      <workItem from="1732611075032" duration="8628000" />
+      <workItem from="1732692712525" duration="10739000" />
+      <workItem from="1732779956201" duration="3497000" />
+      <workItem from="1732783461736" duration="179000" />
+      <workItem from="1732783648160" duration="1474000" />
+      <workItem from="1732785129117" duration="353000" />
+      <workItem from="1732785489077" duration="1228000" />
+      <workItem from="1732786723301" duration="1414000" />
+      <workItem from="1732842260923" duration="5542000" />
+      <workItem from="1732850622067" duration="11682000" />
+      <workItem from="1733205660258" duration="10003000" />
+      <workItem from="1733903955150" duration="2099000" />
+      <workItem from="1733907523428" duration="25000" />
+      <workItem from="1733907566113" duration="1551000" />
+      <workItem from="1734312274022" duration="2915000" />
+      <workItem from="1734316137357" duration="3156000" />
+      <workItem from="1734319301640" duration="1299000" />
+      <workItem from="1734320607132" duration="144000" />
+      <workItem from="1734320758076" duration="5404000" />
+      <workItem from="1734333536475" duration="344000" />
+      <workItem from="1734333886782" duration="835000" />
+      <workItem from="1734335490410" duration="2369000" />
+      <workItem from="1734340789514" duration="569000" />
+      <workItem from="1734341365841" duration="457000" />
+      <workItem from="1734341829686" duration="7208000" />
+      <workItem from="1734404422158" duration="7516000" />
+      <workItem from="1734421918273" duration="1783000" />
+      <workItem from="1734506984279" duration="1647000" />
+      <workItem from="1734570504258" duration="20091000" />
+      <workItem from="1735003042918" duration="8636000" />
+      <workItem from="1735011890727" duration="1563000" />
+      <workItem from="1735013460575" duration="12666000" />
+      <workItem from="1735262660886" duration="5130000" />
+      <workItem from="1735521638281" duration="655000" />
+      <workItem from="1735523297439" duration="33268000" />
+      <workItem from="1736836157346" duration="29863000" />
+      <workItem from="1737959265420" duration="1989000" />
+      <workItem from="1738028437580" duration="235000" />
+      <workItem from="1738028680613" duration="725000" />
+      <workItem from="1738718019528" duration="4554000" />
+      <workItem from="1739255228274" duration="15835000" />
+      <workItem from="1739757180406" duration="1436000" />
+      <workItem from="1739866101298" duration="242000" />
+      <workItem from="1739869503520" duration="19456000" />
+      <workItem from="1740533358971" duration="17131000" />
+      <workItem from="1741596831325" duration="306000" />
+      <workItem from="1741761558120" duration="1737000" />
+      <workItem from="1742732395153" duration="1441000" />
+      <workItem from="1742733842538" duration="21136000" />
+      <workItem from="1742888133021" duration="12708000" />
+      <workItem from="1742979005155" duration="30093000" />
+      <workItem from="1745285470279" duration="14515000" />
+      <workItem from="1746497501133" duration="7631000" />
+      <workItem from="1746755704103" duration="4799000" />
+      <workItem from="1747951835614" duration="2816000" />
+      <workItem from="1749578311069" duration="14543000" />
+      <workItem from="1749625144482" duration="1431000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CMT_Vending_Client/src/main/java/com/cmt/vending/server/config/LocalServerConfig.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/CMT_Vending_Client/src/main/java/com/cmt/vending/server/operation/Octopus3Comm.java</url>
+          <line>89</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

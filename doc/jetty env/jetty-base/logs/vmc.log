@@ -1,0 +1,188 @@
+[24/12/31 16:36:55.931][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-135] [init]Initiate VMC now: MQ_1
+[24/12/31 16:36:55.932][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-137] [init]Initiate the vending machine
+[24/12/31 16:36:55.932][INFO][com.cmt.vending.server.vmc.AbstractVmc-67] [openPort]Start to open port [ /dev/ttyUSB0 ] with baud rate: 9600
+[24/12/31 16:36:56.515][INFO][com.cmt.vending.server.vmc.AbstractVmc-81] [openPort]BaudRate: 9600
+[24/12/31 16:36:56.516][INFO][com.cmt.vending.server.vmc.AbstractVmc-82] [openPort]DataBits: 8
+[24/12/31 16:36:56.516][INFO][com.cmt.vending.server.vmc.AbstractVmc-83] [openPort]StopBits: 1
+[24/12/31 16:36:56.516][INFO][com.cmt.vending.server.vmc.AbstractVmc-84] [openPort]Parity: 0
+[24/12/31 16:36:56.516][INFO][com.cmt.vending.server.vmc.AbstractVmc-85] [openPort]FlowControl: 0
+[24/12/31 16:36:56.517][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-153] [init]Initiate complete
+[24/12/31 16:36:56.521][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 16:36:56.761][INFO][com.cmt.vending.server.vmc.AbstractVmc-119] [init]Initiate Supported payment
+[24/12/31 16:37:16.893][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 04 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 62 D9 
+[24/12/31 16:37:56.761][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 16:38:56.863][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 16:39:56.964][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 16:40:57.065][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 16:41:57.166][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 16:42:57.267][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 16:43:57.369][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 16:44:57.470][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 16:45:57.571][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 16:46:57.673][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 16:47:57.774][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 16:48:57.875][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 16:49:57.977][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 16:50:58.079][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 16:51:58.180][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 16:52:58.281][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 16:53:58.383][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 16:54:58.484][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 16:55:58.585][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 16:56:58.686][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 16:57:58.787][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 16:58:58.888][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 16:59:58.990][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:00:59.091][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:01:59.192][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:02:59.293][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:03:59.394][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:04:59.496][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:05:59.597][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:06:59.698][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:07:59.799][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:08:59.900][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:10:00.002][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:11:00.107][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:12:00.208][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:13:00.309][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:14:00.410][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:15:00.511][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:16:00.612][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:17:00.713][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:18:00.815][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:19:00.916][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:20:01.017][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:21:01.118][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:22:01.219][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:23:01.320][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:24:01.421][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:25:01.522][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:26:01.622][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:27:01.723][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:28:01.824][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:29:01.925][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:30:02.026][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:31:02.128][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:32:02.229][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:33:02.330][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:34:02.431][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:35:02.532][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:36:02.633][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:37:02.734][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:38:02.835][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:39:02.936][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:40:03.038][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:41:03.140][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:42:03.240][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:43:03.341][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:44:03.442][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:45:03.543][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:46:03.645][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:47:03.747][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:48:03.848][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:49:03.949][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:50:04.050][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:51:04.151][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:52:04.252][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:53:04.353][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:54:04.454][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:55:04.555][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:56:04.656][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:57:04.758][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:58:04.859][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 17:59:04.960][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 18:00:05.061][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 18:01:05.161][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 18:02:05.262][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 18:03:05.363][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 18:03:19.881][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-75] [serialEvent]Last response time: 0, Current response time: 1735639399878, EventType:11
+[24/12/31 18:03:19.903][ERROR][com.cmt.vending.server.vmc.mq.MiQuanOne-127] [serialEvent]Failed to receive data from vmc
+java.lang.NullPointerException: Cannot read the array length because "data" is null
+	at javax.xml.bind.DatatypeConverterImpl.printHexBinary(DatatypeConverterImpl.java:490) ~[jaxb-api-2.3.1.jar:2.3.0]
+	at javax.xml.bind.DatatypeConverter.printHexBinary(DatatypeConverter.java:641) ~[jaxb-api-2.3.1.jar:2.3.0]
+	at com.cmt.vending.server.vmc.AbstractVmc.formatHexString(AbstractVmc.java:51) ~[classes/:?]
+	at com.cmt.vending.server.vmc.AbstractVmc.formatHexString(AbstractVmc.java:47) ~[classes/:?]
+	at com.cmt.vending.server.vmc.mq.MiQuanOne.serialEvent(MiQuanOne.java:101) [classes/:?]
+	at gnu.io.RXTXPort.sendEvent(RXTXPort.java:834) [nrjavaserial-5.1.1.jar:5.1.1]
+	at gnu.io.RXTXPort$MonitorThread.run(RXTXPort.java:114) [nrjavaserial-5.1.1.jar:5.1.1]
+[24/12/31 18:05:31.214][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[24/12/31 18:05:31.214][ERROR][com.cmt.vending.server.vmc.mq.MiQuanOne-252] Failed to send command to vmc...
+java.io.IOException: Input/output error in writeArray
+	at gnu.io.RXTXPort.writeArray(Native Method) ~[nrjavaserial-5.1.1.jar:5.1.1]
+	at gnu.io.RXTXPort$SerialOutputStream.write(RXTXPort.java:1269) ~[nrjavaserial-5.1.1.jar:5.1.1]
+	at com.cmt.vending.server.vmc.mq.MiQuanOne.sendCommand(MiQuanOne.java:246) ~[classes/:?]
+	at com.cmt.vending.server.vmc.mq.MiQuanOne.getDeviceStatus(MiQuanOne.java:221) ~[classes/:?]
+	at com.cmt.vending.server.vmc.mq.MiQuanOne.healthCheck(MiQuanOne.java:211) ~[classes/:?]
+	at com.cmt.vending.server.vmc.mq.MiQuanOne.lambda$enableHeartbeat$0(MiQuanOne.java:202) ~[classes/:?]
+	at java.base/java.lang.Thread.run(Thread.java:842) [?:?]
+[25/01/02 10:24:54.092][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[25/01/02 10:24:54.092][ERROR][com.cmt.vending.server.vmc.mq.MiQuanOne-252] Failed to send command to vmc...
+java.io.IOException: Input/output error in writeArray
+	at gnu.io.RXTXPort.writeArray(Native Method) ~[nrjavaserial-5.1.1.jar:5.1.1]
+	at gnu.io.RXTXPort$SerialOutputStream.write(RXTXPort.java:1269) ~[nrjavaserial-5.1.1.jar:5.1.1]
+	at com.cmt.vending.server.vmc.mq.MiQuanOne.sendCommand(MiQuanOne.java:246) ~[classes/:?]
+	at com.cmt.vending.server.vmc.mq.MiQuanOne.getDeviceStatus(MiQuanOne.java:221) ~[classes/:?]
+	at com.cmt.vending.server.vmc.mq.MiQuanOne.healthCheck(MiQuanOne.java:211) ~[classes/:?]
+	at com.cmt.vending.server.vmc.mq.MiQuanOne.lambda$enableHeartbeat$0(MiQuanOne.java:202) ~[classes/:?]
+	at java.base/java.lang.Thread.run(Thread.java:842) [?:?]
+[25/01/02 10:25:54.095][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[25/01/02 10:25:54.095][ERROR][com.cmt.vending.server.vmc.mq.MiQuanOne-252] Failed to send command to vmc...
+java.io.IOException: Input/output error in writeArray
+	at gnu.io.RXTXPort.writeArray(Native Method) ~[nrjavaserial-5.1.1.jar:5.1.1]
+	at gnu.io.RXTXPort$SerialOutputStream.write(RXTXPort.java:1269) ~[nrjavaserial-5.1.1.jar:5.1.1]
+	at com.cmt.vending.server.vmc.mq.MiQuanOne.sendCommand(MiQuanOne.java:246) ~[classes/:?]
+	at com.cmt.vending.server.vmc.mq.MiQuanOne.getDeviceStatus(MiQuanOne.java:221) ~[classes/:?]
+	at com.cmt.vending.server.vmc.mq.MiQuanOne.healthCheck(MiQuanOne.java:211) ~[classes/:?]
+	at com.cmt.vending.server.vmc.mq.MiQuanOne.lambda$enableHeartbeat$0(MiQuanOne.java:202) ~[classes/:?]
+	at java.base/java.lang.Thread.run(Thread.java:842) [?:?]
+[25/01/02 10:26:54.095][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[25/01/02 10:26:54.096][ERROR][com.cmt.vending.server.vmc.mq.MiQuanOne-252] Failed to send command to vmc...
+java.io.IOException: Input/output error in writeArray
+	at gnu.io.RXTXPort.writeArray(Native Method) ~[nrjavaserial-5.1.1.jar:5.1.1]
+	at gnu.io.RXTXPort$SerialOutputStream.write(RXTXPort.java:1269) ~[nrjavaserial-5.1.1.jar:5.1.1]
+	at com.cmt.vending.server.vmc.mq.MiQuanOne.sendCommand(MiQuanOne.java:246) ~[classes/:?]
+	at com.cmt.vending.server.vmc.mq.MiQuanOne.getDeviceStatus(MiQuanOne.java:221) ~[classes/:?]
+	at com.cmt.vending.server.vmc.mq.MiQuanOne.healthCheck(MiQuanOne.java:211) ~[classes/:?]
+	at com.cmt.vending.server.vmc.mq.MiQuanOne.lambda$enableHeartbeat$0(MiQuanOne.java:202) ~[classes/:?]
+	at java.base/java.lang.Thread.run(Thread.java:842) [?:?]
+[25/01/02 10:27:54.096][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[25/01/02 10:27:54.097][ERROR][com.cmt.vending.server.vmc.mq.MiQuanOne-252] Failed to send command to vmc...
+java.io.IOException: Input/output error in writeArray
+	at gnu.io.RXTXPort.writeArray(Native Method) ~[nrjavaserial-5.1.1.jar:5.1.1]
+	at gnu.io.RXTXPort$SerialOutputStream.write(RXTXPort.java:1269) ~[nrjavaserial-5.1.1.jar:5.1.1]
+	at com.cmt.vending.server.vmc.mq.MiQuanOne.sendCommand(MiQuanOne.java:246) ~[classes/:?]
+	at com.cmt.vending.server.vmc.mq.MiQuanOne.getDeviceStatus(MiQuanOne.java:221) ~[classes/:?]
+	at com.cmt.vending.server.vmc.mq.MiQuanOne.healthCheck(MiQuanOne.java:211) ~[classes/:?]
+	at com.cmt.vending.server.vmc.mq.MiQuanOne.lambda$enableHeartbeat$0(MiQuanOne.java:202) ~[classes/:?]
+	at java.base/java.lang.Thread.run(Thread.java:842) [?:?]
+[25/01/02 10:28:54.097][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[25/01/02 10:28:54.098][ERROR][com.cmt.vending.server.vmc.mq.MiQuanOne-252] Failed to send command to vmc...
+java.io.IOException: Input/output error in writeArray
+	at gnu.io.RXTXPort.writeArray(Native Method) ~[nrjavaserial-5.1.1.jar:5.1.1]
+	at gnu.io.RXTXPort$SerialOutputStream.write(RXTXPort.java:1269) ~[nrjavaserial-5.1.1.jar:5.1.1]
+	at com.cmt.vending.server.vmc.mq.MiQuanOne.sendCommand(MiQuanOne.java:246) ~[classes/:?]
+	at com.cmt.vending.server.vmc.mq.MiQuanOne.getDeviceStatus(MiQuanOne.java:221) ~[classes/:?]
+	at com.cmt.vending.server.vmc.mq.MiQuanOne.healthCheck(MiQuanOne.java:211) ~[classes/:?]
+	at com.cmt.vending.server.vmc.mq.MiQuanOne.lambda$enableHeartbeat$0(MiQuanOne.java:202) ~[classes/:?]
+	at java.base/java.lang.Thread.run(Thread.java:842) [?:?]
+[25/01/02 10:29:54.098][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[25/01/02 10:29:54.099][ERROR][com.cmt.vending.server.vmc.mq.MiQuanOne-252] Failed to send command to vmc...
+java.io.IOException: Input/output error in writeArray
+	at gnu.io.RXTXPort.writeArray(Native Method) ~[nrjavaserial-5.1.1.jar:5.1.1]
+	at gnu.io.RXTXPort$SerialOutputStream.write(RXTXPort.java:1269) ~[nrjavaserial-5.1.1.jar:5.1.1]
+	at com.cmt.vending.server.vmc.mq.MiQuanOne.sendCommand(MiQuanOne.java:246) ~[classes/:?]
+	at com.cmt.vending.server.vmc.mq.MiQuanOne.getDeviceStatus(MiQuanOne.java:221) ~[classes/:?]
+	at com.cmt.vending.server.vmc.mq.MiQuanOne.healthCheck(MiQuanOne.java:211) ~[classes/:?]
+	at com.cmt.vending.server.vmc.mq.MiQuanOne.lambda$enableHeartbeat$0(MiQuanOne.java:202) ~[classes/:?]
+	at java.base/java.lang.Thread.run(Thread.java:842) [?:?]
+[25/01/02 10:30:54.099][INFO][com.cmt.vending.server.vmc.mq.MiQuanOne-243] Send CMD: 01 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 71 88 
+[25/01/02 10:30:54.099][ERROR][com.cmt.vending.server.vmc.mq.MiQuanOne-252] Failed to send command to vmc...
+java.io.IOException: Input/output error in writeArray
+	at gnu.io.RXTXPort.writeArray(Native Method) ~[nrjavaserial-5.1.1.jar:5.1.1]
+	at gnu.io.RXTXPort$SerialOutputStream.write(RXTXPort.java:1269) ~[nrjavaserial-5.1.1.jar:5.1.1]
+	at com.cmt.vending.server.vmc.mq.MiQuanOne.sendCommand(MiQuanOne.java:246) ~[classes/:?]
+	at com.cmt.vending.server.vmc.mq.MiQuanOne.getDeviceStatus(MiQuanOne.java:221) ~[classes/:?]
+	at com.cmt.vending.server.vmc.mq.MiQuanOne.healthCheck(MiQuanOne.java:211) ~[classes/:?]
+	at com.cmt.vending.server.vmc.mq.MiQuanOne.lambda$enableHeartbeat$0(MiQuanOne.java:202) ~[classes/:?]
+	at java.base/java.lang.Thread.run(Thread.java:842) [?:?]

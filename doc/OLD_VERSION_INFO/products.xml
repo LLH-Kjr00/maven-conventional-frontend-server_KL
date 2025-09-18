@@ -1,0 +1,1065 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<vsCellInfo>
+    <cellInfo>
+        <cellId>1424</cellId>
+        <columnNormal>false</columnNormal>
+        <displaySeq>0</displaySeq>
+        <enabled>true</enabled>
+        <itemNo>1</itemNo>
+        <maxQty>10000</maxQty>
+        <outOfStock>false</outOfStock>
+        <productInfo>
+            <enable>true</enable>
+            <healthfood>false</healthfood>
+            <hot>false</hot>
+            <likeCount>-2147483648</likeCount>
+            <newProduct>false</newProduct>
+            <productCategoryInfo>
+                <catId>47</catId>
+                <icon>-2147483648</icon>
+                <image>-2147483648</image>
+                <imageChi>-2147483648</imageChi>
+                <name>Wash 洗衣</name>
+                <nameChi>洗衣 Wash</nameChi>
+            </productCategoryInfo>
+            <productId>573</productId>
+            <productPeriodInfo>
+                <brandName>Laundry/洗衣服務</brandName>
+                <brandNameChi>Laundry/洗衣服務</brandNameChi>
+                <description>Applying Alliance Speed Queen Commercial laundry system to provide easy to be used and effective laundry service.</description>
+                <descriptionChi>採用Alliance Speed Queen商業洗衣系統，提供易於使用和有效的洗衣和乾衣服務。</descriptionChi>
+                <effDateMs>1558022400000</effDateMs>
+                <expDateMs>-9223372036854775808</expDateMs>
+                <imageId>1886</imageId>
+                <imageSmallId>1887</imageSmallId>
+                <name>Laundry/洗衣服務</name>
+                <nameChi>Laundry/洗衣服務</nameChi>
+                <nutrition>Washing Machine !!!!!!!!!!!!!!</nutrition>
+                <nutritionChi>Washing Machine !!!!!!!!!!!!!!</nutritionChi>
+                <price>15.80</price>
+                <videoId>-2147483648</videoId>
+            </productPeriodInfo>
+        </productInfo>
+        <qty>972</qty>
+        <qtyHold>0</qtyHold>
+        <recommend>false</recommend>
+        <recommend1>false</recommend1>
+        <recommend2>false</recommend2>
+    </cellInfo>
+    <cellInfo>
+        <cellId>1432</cellId>
+        <columnNormal>false</columnNormal>
+        <displaySeq>1</displaySeq>
+        <enabled>true</enabled>
+        <itemNo>3</itemNo>
+        <maxQty>10000</maxQty>
+        <outOfStock>false</outOfStock>
+        <productInfo>
+            <enable>true</enable>
+            <healthfood>false</healthfood>
+            <hot>false</hot>
+            <likeCount>-2147483648</likeCount>
+            <newProduct>false</newProduct>
+            <productCategoryInfo>
+                <catId>47</catId>
+                <icon>-2147483648</icon>
+                <image>-2147483648</image>
+                <imageChi>-2147483648</imageChi>
+                <name>Wash 洗衣</name>
+                <nameChi>洗衣 Wash</nameChi>
+            </productCategoryInfo>
+            <productId>574</productId>
+            <productPeriodInfo>
+                <brandName>Laundry/洗衣服務</brandName>
+                <brandNameChi>Laundry/洗衣服務</brandNameChi>
+                <description>Applying Alliance Speed Queen Commercial laundry system to provide easy to be used and effective laundry service.</description>
+                <descriptionChi>採用Alliance Speed Queen商業洗衣系統，提供易於使用和有效的洗衣和乾衣服務。</descriptionChi>
+                <effDateMs>1558022400000</effDateMs>
+                <expDateMs>-9223372036854775808</expDateMs>
+                <imageId>1888</imageId>
+                <imageSmallId>1889</imageSmallId>
+                <name>Laundry/洗衣服務</name>
+                <nameChi>Laundry/洗衣服務</nameChi>
+                <price>15.80</price>
+                <videoId>-2147483648</videoId>
+            </productPeriodInfo>
+        </productInfo>
+        <qty>9987</qty>
+        <qtyHold>0</qtyHold>
+        <recommend>false</recommend>
+        <recommend1>false</recommend1>
+        <recommend2>false</recommend2>
+    </cellInfo>
+    <cellInfo>
+        <cellId>1914</cellId>
+        <columnNormal>false</columnNormal>
+        <displaySeq>2</displaySeq>
+        <enabled>true</enabled>
+        <itemNo>4</itemNo>
+        <maxQty>9999</maxQty>
+        <outOfStock>false</outOfStock>
+        <productInfo>
+            <enable>true</enable>
+            <healthfood>false</healthfood>
+            <hot>false</hot>
+            <likeCount>-2147483648</likeCount>
+            <newProduct>false</newProduct>
+            <productCategoryInfo>
+                <catId>47</catId>
+                <icon>-2147483648</icon>
+                <image>-2147483648</image>
+                <imageChi>-2147483648</imageChi>
+                <name>Wash 洗衣</name>
+                <nameChi>洗衣 Wash</nameChi>
+            </productCategoryInfo>
+            <productId>575</productId>
+            <productPeriodInfo>
+                <brandName>Laundry/洗衣服務</brandName>
+                <brandNameChi>Laundry/洗衣服務</brandNameChi>
+                <description>Applying Alliance Speed Queen Commercial laundry system to provide easy to be used and effective laundry service.</description>
+                <descriptionChi>採用Alliance Speed Queen商業洗衣系統，提供易於使用和有效的洗衣和乾衣服務。</descriptionChi>
+                <effDateMs>1558022400000</effDateMs>
+                <expDateMs>-9223372036854775808</expDateMs>
+                <imageId>1890</imageId>
+                <imageSmallId>1891</imageSmallId>
+                <name>Laundry/洗衣服務</name>
+                <nameChi>Laundry/洗衣服務</nameChi>
+                <price>15.80</price>
+                <videoId>-2147483648</videoId>
+            </productPeriodInfo>
+        </productInfo>
+        <qty>9995</qty>
+        <qtyHold>0</qtyHold>
+        <recommend>false</recommend>
+        <recommend1>false</recommend1>
+        <recommend2>false</recommend2>
+    </cellInfo>
+    <cellInfo>
+        <cellId>1912</cellId>
+        <columnNormal>false</columnNormal>
+        <displaySeq>3</displaySeq>
+        <enabled>false</enabled>
+        <itemNo>7</itemNo>
+        <maxQty>100</maxQty>
+        <outOfStock>false</outOfStock>
+        <productInfo>
+            <enable>true</enable>
+            <healthfood>false</healthfood>
+            <hot>false</hot>
+            <likeCount>-2147483648</likeCount>
+            <newProduct>false</newProduct>
+            <productCategoryInfo>
+                <catId>93</catId>
+                <icon>-2147483648</icon>
+                <image>-2147483648</image>
+                <imageChi>-2147483648</imageChi>
+                <name>Shanghai</name>
+                <nameChi>上海美食</nameChi>
+            </productCategoryInfo>
+            <productId>793</productId>
+            <productPeriodInfo>
+                <brandName>Shanghai Rice Cake</brandName>
+                <brandNameChi>上海炒年糕</brandNameChi>
+                <description>The rice cakes are sticky, crispy with cabbage, and the smell of mushrooms, every bite is satisfied.</description>
+                <descriptionChi>年糕黏口，配上白菜夠爽脆，冬菇香味，每一啖都滿足。</descriptionChi>
+                <effDateMs>1602432000000</effDateMs>
+                <expDateMs>-9223372036854775808</expDateMs>
+                <imageId>2674</imageId>
+                <imageSmallId>2675</imageSmallId>
+                <name>Shanghai Rice Cake</name>
+                <nameChi>上海炒年糕</nameChi>
+                <price>48.00</price>
+                <videoId>-2147483648</videoId>
+            </productPeriodInfo>
+        </productInfo>
+        <qty>80</qty>
+        <qtyHold>0</qtyHold>
+        <recommend>false</recommend>
+        <recommend1>false</recommend1>
+        <recommend2>false</recommend2>
+    </cellInfo>
+    <cellInfo>
+        <cellId>1919</cellId>
+        <columnNormal>false</columnNormal>
+        <displaySeq>4</displaySeq>
+        <enabled>false</enabled>
+        <itemNo>8</itemNo>
+        <maxQty>100</maxQty>
+        <outOfStock>false</outOfStock>
+        <productInfo>
+            <enable>true</enable>
+            <healthfood>false</healthfood>
+            <hot>false</hot>
+            <likeCount>-2147483648</likeCount>
+            <newProduct>false</newProduct>
+            <productCategoryInfo>
+                <catId>93</catId>
+                <icon>-2147483648</icon>
+                <image>-2147483648</image>
+                <imageChi>-2147483648</imageChi>
+                <name>Shanghai</name>
+                <nameChi>上海美食</nameChi>
+            </productCategoryInfo>
+            <productId>794</productId>
+            <productPeriodInfo>
+                <brandName>Pan-Fried Bun</brandName>
+                <brandNameChi>生煎包</brandNameChi>
+                <description>The bottom of the bag is golden and crispy, crispy but not hard, full of fragrance, and the sweet and delicious soup will overflow your mouth.</description>
+                <descriptionChi>包的底部金黃脆皮，脆而不硬，香味十足，清甜鮮美的湯汁會溢滿嘴巴。</descriptionChi>
+                <effDateMs>1602432000000</effDateMs>
+                <expDateMs>-9223372036854775808</expDateMs>
+                <imageId>2676</imageId>
+                <imageSmallId>2677</imageSmallId>
+                <name>Pan-Fried Bun</name>
+                <nameChi>生煎包</nameChi>
+                <price>38.00</price>
+                <videoId>-2147483648</videoId>
+            </productPeriodInfo>
+        </productInfo>
+        <qty>100</qty>
+        <qtyHold>0</qtyHold>
+        <recommend>false</recommend>
+        <recommend1>false</recommend1>
+        <recommend2>false</recommend2>
+    </cellInfo>
+    <cellInfo>
+        <cellId>1922</cellId>
+        <columnNormal>false</columnNormal>
+        <displaySeq>5</displaySeq>
+        <enabled>false</enabled>
+        <itemNo>9</itemNo>
+        <maxQty>100</maxQty>
+        <outOfStock>false</outOfStock>
+        <productInfo>
+            <enable>true</enable>
+            <healthfood>false</healthfood>
+            <hot>false</hot>
+            <likeCount>-2147483648</likeCount>
+            <newProduct>false</newProduct>
+            <productCategoryInfo>
+                <catId>93</catId>
+                <icon>-2147483648</icon>
+                <image>-2147483648</image>
+                <imageChi>-2147483648</imageChi>
+                <name>Shanghai</name>
+                <nameChi>上海美食</nameChi>
+            </productCategoryInfo>
+            <productId>795</productId>
+            <productPeriodInfo>
+                <brandName>Eight Treasures Rice Pudding</brandName>
+                <brandNameChi>八寶飯</brandNameChi>
+                <description>Shanghai Eight Treasure Rice is a combination of glutinous rice, red dates, red bean paste and other eight ingredients, then mixed with lard and pressed.</description>
+                <descriptionChi>上海八寶飯是由糯米和紅棗、豆沙等八種配料組合而成，再拌上豬油壓緊。</descriptionChi>
+                <effDateMs>1602432000000</effDateMs>
+                <expDateMs>-9223372036854775808</expDateMs>
+                <imageId>2678</imageId>
+                <imageSmallId>2679</imageSmallId>
+                <name>Eight Treasures Rice Pudding</name>
+                <nameChi>八寶飯</nameChi>
+                <price>52.00</price>
+                <videoId>-2147483648</videoId>
+            </productPeriodInfo>
+        </productInfo>
+        <qty>99</qty>
+        <qtyHold>0</qtyHold>
+        <recommend>false</recommend>
+        <recommend1>false</recommend1>
+        <recommend2>false</recommend2>
+    </cellInfo>
+    <cellInfo>
+        <cellId>1981</cellId>
+        <columnNormal>false</columnNormal>
+        <displaySeq>6</displaySeq>
+        <enabled>false</enabled>
+        <itemNo>10</itemNo>
+        <maxQty>1</maxQty>
+        <outOfStock>false</outOfStock>
+        <productInfo>
+            <enable>true</enable>
+            <healthfood>false</healthfood>
+            <hot>false</hot>
+            <likeCount>-2147483648</likeCount>
+            <newProduct>false</newProduct>
+            <productCategoryInfo>
+                <catId>94</catId>
+                <icon>-2147483648</icon>
+                <image>-2147483648</image>
+                <imageChi>-2147483648</imageChi>
+                <name>Japanese</name>
+                <nameChi>日本美食</nameChi>
+            </productCategoryInfo>
+            <productId>796</productId>
+            <productPeriodInfo>
+                <brandName>Japanese Udon</brandName>
+                <brandNameChi>日本烏冬</brandNameChi>
+                <description>The udon soup is sweet, with green onions, deep-fried tofu and fried chicken tempura. The taste is superb!</description>
+                <descriptionChi>烏冬湯底清甜，配上蔥、油炸豆腐和厚實的炸雞天婦羅，味道一流！</descriptionChi>
+                <effDateMs>1602432000000</effDateMs>
+                <expDateMs>-9223372036854775808</expDateMs>
+                <imageId>2683</imageId>
+                <imageSmallId>2684</imageSmallId>
+                <name>Japanese Udon</name>
+                <nameChi>日本烏冬</nameChi>
+                <price>44.00</price>
+                <videoId>-2147483648</videoId>
+            </productPeriodInfo>
+        </productInfo>
+        <qty>1</qty>
+        <qtyHold>0</qtyHold>
+        <recommend>false</recommend>
+        <recommend1>false</recommend1>
+        <recommend2>false</recommend2>
+    </cellInfo>
+    <cellInfo>
+        <cellId>1980</cellId>
+        <columnNormal>false</columnNormal>
+        <displaySeq>7</displaySeq>
+        <enabled>false</enabled>
+        <itemNo>11</itemNo>
+        <maxQty>1</maxQty>
+        <outOfStock>false</outOfStock>
+        <productInfo>
+            <enable>true</enable>
+            <healthfood>false</healthfood>
+            <hot>false</hot>
+            <likeCount>-2147483648</likeCount>
+            <newProduct>false</newProduct>
+            <productCategoryInfo>
+                <catId>94</catId>
+                <icon>-2147483648</icon>
+                <image>-2147483648</image>
+                <imageChi>-2147483648</imageChi>
+                <name>Japanese</name>
+                <nameChi>日本美食</nameChi>
+            </productCategoryInfo>
+            <productId>797</productId>
+            <productPeriodInfo>
+                <brandName>Japanese Beef Rice</brandName>
+                <brandNameChi>日式牛肉飯</brandNameChi>
+                <description>Put rice in a bowl, top with a layer of ground beef slices and shredded onion, and steam them together before serving.</description>
+                <descriptionChi>碗內盛上米飯，上鋪一層碎牛肉片和洋蔥絲，並一起蒸熟後食用。</descriptionChi>
+                <effDateMs>1602432000000</effDateMs>
+                <expDateMs>-9223372036854775808</expDateMs>
+                <imageId>2685</imageId>
+                <imageSmallId>2686</imageSmallId>
+                <name>Japanese Beef Rice</name>
+                <nameChi>日式牛肉飯</nameChi>
+                <price>42.00</price>
+                <videoId>-2147483648</videoId>
+            </productPeriodInfo>
+        </productInfo>
+        <qty>0</qty>
+        <qtyHold>0</qtyHold>
+        <recommend>false</recommend>
+        <recommend1>false</recommend1>
+        <recommend2>false</recommend2>
+    </cellInfo>
+    <cellInfo>
+        <cellId>1982</cellId>
+        <columnNormal>false</columnNormal>
+        <displaySeq>8</displaySeq>
+        <enabled>false</enabled>
+        <itemNo>12</itemNo>
+        <maxQty>1</maxQty>
+        <outOfStock>false</outOfStock>
+        <productInfo>
+            <enable>true</enable>
+            <healthfood>false</healthfood>
+            <hot>false</hot>
+            <likeCount>-2147483648</likeCount>
+            <newProduct>false</newProduct>
+            <productCategoryInfo>
+                <catId>94</catId>
+                <icon>-2147483648</icon>
+                <image>-2147483648</image>
+                <imageChi>-2147483648</imageChi>
+                <name>Japanese</name>
+                <nameChi>日本美食</nameChi>
+            </productCategoryInfo>
+            <productId>798</productId>
+            <productPeriodInfo>
+                <brandName>Eel Rice</brandName>
+                <brandNameChi>鰻魚飯</brandNameChi>
+                <description>Sauteed plump eel, served with hot Penglai rice.</description>
+                <descriptionChi>蒲燒肥美的鰻魚，置於盛裝熱騰騰的蓬萊米飯。</descriptionChi>
+                <effDateMs>1602432000000</effDateMs>
+                <expDateMs>-9223372036854775808</expDateMs>
+                <imageId>2687</imageId>
+                <imageSmallId>2688</imageSmallId>
+                <name>Eel Rice</name>
+                <nameChi>鰻魚飯</nameChi>
+                <price>46.00</price>
+                <videoId>-2147483648</videoId>
+            </productPeriodInfo>
+        </productInfo>
+        <qty>0</qty>
+        <qtyHold>0</qtyHold>
+        <recommend>false</recommend>
+        <recommend1>false</recommend1>
+        <recommend2>false</recommend2>
+    </cellInfo>
+    <cellInfo>
+        <cellId>1429</cellId>
+        <columnNormal>false</columnNormal>
+        <displaySeq>9</displaySeq>
+        <enabled>false</enabled>
+        <itemNo>16</itemNo>
+        <maxQty>10000</maxQty>
+        <outOfStock>false</outOfStock>
+        <productInfo>
+            <enable>true</enable>
+            <healthfood>false</healthfood>
+            <hot>false</hot>
+            <likeCount>-2147483648</likeCount>
+            <newProduct>false</newProduct>
+            <productCategoryInfo>
+                <catId>100</catId>
+                <icon>-2147483648</icon>
+                <image>-2147483648</image>
+                <imageChi>-2147483648</imageChi>
+                <name>Bento</name>
+                <nameChi>便當</nameChi>
+            </productCategoryInfo>
+            <productId>931</productId>
+            <productPeriodInfo>
+                <brandName>Man's Kitchn</brandName>
+                <brandNameChi>麻甩廚房</brandNameChi>
+                <description>After the chicken is boiled in brine, it is placed in cold water to cool down quickly, resulting a crispy texture and a pleasantly salty flavour and nice chewy texture in the meat. Topped with a secret sauce and brine marinated side dishes, Salty Chicken is a classic sensation of Taiwan.</description>
+                <descriptionChi>雞用鹽水煮過後，放置冷水中收縮冷卻 ，成品口感爽脆，肉質鹹香有嚼勁，淋上秘製醬汁及配以鹽水醃的配菜，成就了台灣的經典味道。</descriptionChi>
+                <effDateMs>1619971200000</effDateMs>
+                <expDateMs>-9223372036854775808</expDateMs>
+                <imageId>3361</imageId>
+                <imageSmallId>3362</imageSmallId>
+                <name>Miaokou Night Market Salty Chicken Bento</name>
+                <nameChi>
+廟口夜市鹽水雞便當</nameChi>
+                <nutrition>Chicken
+carrot
+Vegetable</nutrition>
+                <nutritionChi>鹽水雞
+玉米筍
+馬鈴薯
+黃瓜甘筍蘿蔔漬物
+時令蔬菜</nutritionChi>
+                <price>0.10</price>
+                <videoId>-2147483648</videoId>
+                <wgtVolume>500 gram</wgtVolume>
+                <wgtVolumeChi>500 gram</wgtVolumeChi>
+            </productPeriodInfo>
+        </productInfo>
+        <qty>9974</qty>
+        <qtyHold>0</qtyHold>
+        <recommend>false</recommend>
+        <recommend1>false</recommend1>
+        <recommend2>false</recommend2>
+    </cellInfo>
+    <cellInfo>
+        <cellId>1423</cellId>
+        <columnNormal>false</columnNormal>
+        <displaySeq>10</displaySeq>
+        <enabled>false</enabled>
+        <itemNo>21</itemNo>
+        <maxQty>10000</maxQty>
+        <outOfStock>false</outOfStock>
+        <productInfo>
+            <enable>true</enable>
+            <healthfood>false</healthfood>
+            <hot>false</hot>
+            <likeCount>-2147483648</likeCount>
+            <newProduct>false</newProduct>
+            <productCategoryInfo>
+                <catId>100</catId>
+                <icon>-2147483648</icon>
+                <image>-2147483648</image>
+                <imageChi>-2147483648</imageChi>
+                <name>Bento</name>
+                <nameChi>便當</nameChi>
+            </productCategoryInfo>
+            <productId>933</productId>
+            <productPeriodInfo>
+                <brandName>Man's Kitchen</brandName>
+                <brandNameChi>麻甩廚房</brandNameChi>
+                <description>Soy-stewed pork belly originates from Fujian, and was brought to Taiwan by immigrants and became a famous dish in Taiwan. </description>
+                <descriptionChi>爌肉需用上三層肉作材料， 經過炒糖色、炆煮等一系列的烹調， 最後放到鹵水中慢煮。 說到爌肉飯就不得不提彰化的出品， 它的鹵水加入大地魚及蝦乾熬製而成， 香味獨特。 </descriptionChi>
+                <effDateMs>1619971200000</effDateMs>
+                <expDateMs>-9223372036854775808</expDateMs>
+                <imageId>3357</imageId>
+                <imageSmallId>3358</imageSmallId>
+                <name>Zhanghua Style Soy-Stewed Pork Belly &amp; Chicken Drumstick Bento</name>
+                <nameChi>彰化爌肉雞腿便當</nameChi>
+                <nutrition>Top grade pork
+Chicken drum stick</nutrition>
+                <nutritionChi>三花肉
+滷水雞髀
+鹵水蛋
+黃瓜甘筍蘿蔔漬物
+時令蔬菜
+蔥辣醬
+屏東池上米</nutritionChi>
+                <price>0.10</price>
+                <videoId>-2147483648</videoId>
+                <wgtVolume>500 gram</wgtVolume>
+                <wgtVolumeChi>500 Gram</wgtVolumeChi>
+            </productPeriodInfo>
+        </productInfo>
+        <qty>0</qty>
+        <qtyHold>0</qtyHold>
+        <recommend>false</recommend>
+        <recommend1>false</recommend1>
+        <recommend2>false</recommend2>
+    </cellInfo>
+    <cellInfo>
+        <cellId>2367</cellId>
+        <columnNormal>false</columnNormal>
+        <displaySeq>11</displaySeq>
+        <enabled>false</enabled>
+        <itemNo>22</itemNo>
+        <maxQty>2222</maxQty>
+        <outOfStock>false</outOfStock>
+        <productInfo>
+            <enable>true</enable>
+            <healthfood>false</healthfood>
+            <hot>false</hot>
+            <likeCount>-2147483648</likeCount>
+            <newProduct>false</newProduct>
+            <productCategoryInfo>
+                <catId>47</catId>
+                <icon>-2147483648</icon>
+                <image>-2147483648</image>
+                <imageChi>-2147483648</imageChi>
+                <name>Wash 洗衣</name>
+                <nameChi>洗衣 Wash</nameChi>
+            </productCategoryInfo>
+            <productId>573</productId>
+            <productPeriodInfo>
+                <brandName>Laundry/洗衣服務</brandName>
+                <brandNameChi>Laundry/洗衣服務</brandNameChi>
+                <description>Applying Alliance Speed Queen Commercial laundry system to provide easy to be used and effective laundry service.</description>
+                <descriptionChi>採用Alliance Speed Queen商業洗衣系統，提供易於使用和有效的洗衣和乾衣服務。</descriptionChi>
+                <effDateMs>1558022400000</effDateMs>
+                <expDateMs>-9223372036854775808</expDateMs>
+                <imageId>1886</imageId>
+                <imageSmallId>1887</imageSmallId>
+                <name>Laundry/洗衣服務</name>
+                <nameChi>Laundry/洗衣服務</nameChi>
+                <nutrition>Washing Machine !!!!!!!!!!!!!!</nutrition>
+                <nutritionChi>Washing Machine !!!!!!!!!!!!!!</nutritionChi>
+                <price>15.80</price>
+                <videoId>-2147483648</videoId>
+            </productPeriodInfo>
+        </productInfo>
+        <qty>2217</qty>
+        <qtyHold>0</qtyHold>
+        <recommend>false</recommend>
+        <recommend1>false</recommend1>
+        <recommend2>false</recommend2>
+    </cellInfo>
+    <cellInfo>
+        <cellId>2366</cellId>
+        <columnNormal>false</columnNormal>
+        <displaySeq>12</displaySeq>
+        <enabled>false</enabled>
+        <itemNo>23</itemNo>
+        <maxQty>24242</maxQty>
+        <outOfStock>false</outOfStock>
+        <productInfo>
+            <enable>true</enable>
+            <healthfood>false</healthfood>
+            <hot>false</hot>
+            <likeCount>-2147483648</likeCount>
+            <newProduct>false</newProduct>
+            <productCategoryInfo>
+                <catId>47</catId>
+                <icon>-2147483648</icon>
+                <image>-2147483648</image>
+                <imageChi>-2147483648</imageChi>
+                <name>Wash 洗衣</name>
+                <nameChi>洗衣 Wash</nameChi>
+            </productCategoryInfo>
+            <productId>575</productId>
+            <productPeriodInfo>
+                <brandName>Laundry/洗衣服務</brandName>
+                <brandNameChi>Laundry/洗衣服務</brandNameChi>
+                <description>Applying Alliance Speed Queen Commercial laundry system to provide easy to be used and effective laundry service.</description>
+                <descriptionChi>採用Alliance Speed Queen商業洗衣系統，提供易於使用和有效的洗衣和乾衣服務。</descriptionChi>
+                <effDateMs>1558022400000</effDateMs>
+                <expDateMs>-9223372036854775808</expDateMs>
+                <imageId>1890</imageId>
+                <imageSmallId>1891</imageSmallId>
+                <name>Laundry/洗衣服務</name>
+                <nameChi>Laundry/洗衣服務</nameChi>
+                <price>15.80</price>
+                <videoId>-2147483648</videoId>
+            </productPeriodInfo>
+        </productInfo>
+        <qty>24239</qty>
+        <qtyHold>0</qtyHold>
+        <recommend>false</recommend>
+        <recommend1>false</recommend1>
+        <recommend2>false</recommend2>
+    </cellInfo>
+    <cellInfo>
+        <cellId>2611</cellId>
+        <columnNormal>false</columnNormal>
+        <displaySeq>13</displaySeq>
+        <enabled>false</enabled>
+        <itemNo>24</itemNo>
+        <maxQty>9999</maxQty>
+        <outOfStock>false</outOfStock>
+        <productInfo>
+            <enable>true</enable>
+            <healthfood>false</healthfood>
+            <hot>false</hot>
+            <likeCount>-2147483648</likeCount>
+            <newProduct>false</newProduct>
+            <productCategoryInfo>
+                <catId>109</catId>
+                <icon>-2147483648</icon>
+                <image>-2147483648</image>
+                <imageChi>-2147483648</imageChi>
+                <name>food</name>
+                <nameChi>food</nameChi>
+            </productCategoryInfo>
+            <productId>1072</productId>
+            <productPeriodInfo>
+                <brandName>Samyang</brandName>
+                <brandNameChi>Samyang
+</brandNameChi>
+                <effDateMs>1628611200000</effDateMs>
+                <expDateMs>-9223372036854775808</expDateMs>
+                <imageId>3417</imageId>
+                <imageSmallId>3418</imageSmallId>
+                <name>Samyang noodles</name>
+                <nameChi>Samyang</nameChi>
+                <price>0.10</price>
+                <videoId>-2147483648</videoId>
+            </productPeriodInfo>
+        </productInfo>
+        <qty>9998</qty>
+        <qtyHold>0</qtyHold>
+        <recommend>false</recommend>
+        <recommend1>false</recommend1>
+        <recommend2>false</recommend2>
+    </cellInfo>
+    <cellInfo>
+        <cellId>2371</cellId>
+        <columnNormal>false</columnNormal>
+        <displaySeq>14</displaySeq>
+        <enabled>false</enabled>
+        <itemNo>25</itemNo>
+        <maxQty>2442</maxQty>
+        <outOfStock>false</outOfStock>
+        <productInfo>
+            <enable>true</enable>
+            <healthfood>false</healthfood>
+            <hot>false</hot>
+            <likeCount>-2147483648</likeCount>
+            <newProduct>false</newProduct>
+            <productCategoryInfo>
+                <catId>105</catId>
+                <icon>6099</icon>
+                <image>-2147483648</image>
+                <imageChi>-2147483648</imageChi>
+                <name>Drink</name>
+                <nameChi>飲品</nameChi>
+            </productCategoryInfo>
+            <productId>952</productId>
+            <productPeriodInfo>
+                <brandName>Cestbon</brandName>
+                <brandNameChi>怡寶</brandNameChi>
+                <description>Safe, Healthy, Trusty</description>
+                <descriptionChi>安全、健康、值得信賴
+
+0糖0脂肪
+含成人每日所需約1/4膳食纖維</descriptionChi>
+                <effDateMs>1622304000000</effDateMs>
+                <expDateMs>-9223372036854775808</expDateMs>
+                <imageId>6093</imageId>
+                <imageSmallId>6094</imageSmallId>
+                <name>C'estbon Pure Water 1555ml</name>
+                <nameChi>怡寶水1555ML</nameChi>
+                <price>0.10</price>
+                <videoId>-2147483648</videoId>
+            </productPeriodInfo>
+        </productInfo>
+        <qty>2416</qty>
+        <qtyHold>0</qtyHold>
+        <recommend>false</recommend>
+        <recommend1>false</recommend1>
+        <recommend2>false</recommend2>
+    </cellInfo>
+    <cellInfo>
+        <cellId>2368</cellId>
+        <columnNormal>false</columnNormal>
+        <displaySeq>15</displaySeq>
+        <enabled>false</enabled>
+        <itemNo>26</itemNo>
+        <maxQty>2622</maxQty>
+        <outOfStock>false</outOfStock>
+        <productInfo>
+            <enable>true</enable>
+            <healthfood>false</healthfood>
+            <hot>false</hot>
+            <likeCount>-2147483648</likeCount>
+            <newProduct>false</newProduct>
+            <productCategoryInfo>
+                <catId>184</catId>
+                <icon>-2147483648</icon>
+                <image>-2147483648</image>
+                <imageChi>-2147483648</imageChi>
+                <name>Drinks</name>
+                <nameChi>飲品</nameChi>
+            </productCategoryInfo>
+            <productId>1731</productId>
+            <productPeriodInfo>
+                <brandName>Cestbon</brandName>
+                <brandNameChi>海鹽荔枝</brandNameChi>
+                <descriptionChi>靈感來自泰國的“鹽×水果”冰甜點的智慧；選用盛産季采摘的嶺南荔枝和日曬海鹽；美味的補充鹽分、水分</descriptionChi>
+                <effDateMs>1672502400000</effDateMs>
+                <expDateMs>-9223372036854775808</expDateMs>
+                <imageId>6089</imageId>
+                <imageSmallId>6090</imageSmallId>
+                <name>海鹽荔枝</name>
+                <nameChi>海鹽荔枝</nameChi>
+                <price>8.80</price>
+                <videoId>-2147483648</videoId>
+            </productPeriodInfo>
+        </productInfo>
+        <qty>2621</qty>
+        <qtyHold>0</qtyHold>
+        <recommend>false</recommend>
+        <recommend1>false</recommend1>
+        <recommend2>false</recommend2>
+    </cellInfo>
+    <cellInfo>
+        <cellId>2489</cellId>
+        <columnNormal>false</columnNormal>
+        <displaySeq>16</displaySeq>
+        <enabled>false</enabled>
+        <itemNo>61</itemNo>
+        <maxQty>9999</maxQty>
+        <outOfStock>false</outOfStock>
+        <productInfo>
+            <enable>true</enable>
+            <healthfood>false</healthfood>
+            <hot>false</hot>
+            <likeCount>-2147483648</likeCount>
+            <newProduct>false</newProduct>
+            <productCategoryInfo>
+                <catId>105</catId>
+                <icon>6099</icon>
+                <image>-2147483648</image>
+                <imageChi>-2147483648</imageChi>
+                <name>Drink</name>
+                <nameChi>飲品</nameChi>
+            </productCategoryInfo>
+            <productId>962</productId>
+            <productPeriodInfo>
+                <brandName>Nestcafe</brandName>
+                <brandNameChi>雀巢</brandNameChi>
+                <effDateMs>1622304000000</effDateMs>
+                <expDateMs>-9223372036854775808</expDateMs>
+                <imageId>6769</imageId>
+                <imageSmallId>6778</imageSmallId>
+                <name>Coffee</name>
+                <nameChi>咖啡</nameChi>
+                <price>12.00</price>
+                <videoId>-2147483648</videoId>
+            </productPeriodInfo>
+        </productInfo>
+        <qty>9999</qty>
+        <qtyHold>0</qtyHold>
+        <recommend>false</recommend>
+        <recommend1>false</recommend1>
+        <recommend2>false</recommend2>
+    </cellInfo>
+    <cellInfo>
+        <cellId>2509</cellId>
+        <columnNormal>false</columnNormal>
+        <displaySeq>17</displaySeq>
+        <enabled>false</enabled>
+        <itemNo>88</itemNo>
+        <maxQty>9999</maxQty>
+        <outOfStock>false</outOfStock>
+        <productInfo>
+            <enable>false</enable>
+            <healthfood>false</healthfood>
+            <hot>false</hot>
+            <likeCount>-2147483648</likeCount>
+            <newProduct>false</newProduct>
+            <productCategoryInfo>
+                <catId>111</catId>
+                <icon>3746</icon>
+                <image>-2147483648</image>
+                <imageChi>-2147483648</imageChi>
+                <name>Slowood Products
+</name>
+                <nameChi>Slowood Products
+</nameChi>
+            </productCategoryInfo>
+            <productId>1007</productId>
+            <productPeriodInfo>
+                <brandName>test</brandName>
+                <brandNameChi>test</brandNameChi>
+                <effDateMs>1626278400000</effDateMs>
+                <expDateMs>1656518400000</expDateMs>
+                <imageId>3669</imageId>
+                <imageSmallId>3670</imageSmallId>
+                <name>lissa's test product</name>
+                <nameChi>lissa的測試product</nameChi>
+                <nutrition>this is  營養成份</nutrition>
+                <nutritionChi>這是營養成份</nutritionChi>
+                <price>1.20</price>
+                <videoId>-2147483648</videoId>
+            </productPeriodInfo>
+        </productInfo>
+        <qty>9999</qty>
+        <qtyHold>0</qtyHold>
+        <recommend>false</recommend>
+        <recommend1>false</recommend1>
+        <recommend2>false</recommend2>
+    </cellInfo>
+    <cellInfo>
+        <cellId>1913</cellId>
+        <columnNormal>false</columnNormal>
+        <displaySeq>18</displaySeq>
+        <enabled>false</enabled>
+        <itemNo>103</itemNo>
+        <maxQty>9999</maxQty>
+        <outOfStock>false</outOfStock>
+        <productInfo>
+            <enable>true</enable>
+            <healthfood>false</healthfood>
+            <hot>false</hot>
+            <likeCount>-2147483648</likeCount>
+            <newProduct>false</newProduct>
+            <productCategoryInfo>
+                <catId>92</catId>
+                <icon>-2147483648</icon>
+                <image>-2147483648</image>
+                <imageChi>-2147483648</imageChi>
+                <name>Sichun</name>
+                <nameChi>四川美食</nameChi>
+            </productCategoryInfo>
+            <productId>792</productId>
+            <productPeriodInfo>
+                <brandName>Red Beef</brandName>
+                <brandNameChi>張飛牛肉</brandNameChi>
+                <description>The surface of red beef is brown-red, and the meat is tightly cut after being cut, not dry, not dry, not soft, not hard, and the food is salty and palatable. It is suitable for banquets and wines.</description>
+                <descriptionChi>張飛牛肉表面為棕紅色，切開後肉質紋絲緊密，不干、不燥、不軟、不硬，食之鹹淡適口，宴席配餐，伴酒佐餐均宜。</descriptionChi>
+                <effDateMs>1602432000000</effDateMs>
+                <expDateMs>-9223372036854775808</expDateMs>
+                <imageId>2672</imageId>
+                <imageSmallId>2673</imageSmallId>
+                <name>Red Beef</name>
+                <nameChi>張飛牛肉</nameChi>
+                <price>0.10</price>
+                <videoId>-2147483648</videoId>
+            </productPeriodInfo>
+        </productInfo>
+        <qty>9999</qty>
+        <qtyHold>0</qtyHold>
+        <recommend>false</recommend>
+        <recommend1>false</recommend1>
+        <recommend2>false</recommend2>
+    </cellInfo>
+    <cellInfo>
+        <cellId>2596</cellId>
+        <columnNormal>false</columnNormal>
+        <displaySeq>19</displaySeq>
+        <enabled>false</enabled>
+        <itemNo>301</itemNo>
+        <maxQty>999</maxQty>
+        <outOfStock>false</outOfStock>
+        <productInfo>
+            <enable>true</enable>
+            <healthfood>false</healthfood>
+            <hot>false</hot>
+            <likeCount>-2147483648</likeCount>
+            <newProduct>false</newProduct>
+            <productCategoryInfo>
+                <catId>100</catId>
+                <icon>-2147483648</icon>
+                <image>-2147483648</image>
+                <imageChi>-2147483648</imageChi>
+                <name>Bento</name>
+                <nameChi>便當</nameChi>
+            </productCategoryInfo>
+            <productId>931</productId>
+            <productPeriodInfo>
+                <brandName>Man's Kitchn</brandName>
+                <brandNameChi>麻甩廚房</brandNameChi>
+                <description>After the chicken is boiled in brine, it is placed in cold water to cool down quickly, resulting a crispy texture and a pleasantly salty flavour and nice chewy texture in the meat. Topped with a secret sauce and brine marinated side dishes, Salty Chicken is a classic sensation of Taiwan.</description>
+                <descriptionChi>雞用鹽水煮過後，放置冷水中收縮冷卻 ，成品口感爽脆，肉質鹹香有嚼勁，淋上秘製醬汁及配以鹽水醃的配菜，成就了台灣的經典味道。</descriptionChi>
+                <effDateMs>1619971200000</effDateMs>
+                <expDateMs>-9223372036854775808</expDateMs>
+                <imageId>3361</imageId>
+                <imageSmallId>3362</imageSmallId>
+                <name>Miaokou Night Market Salty Chicken Bento</name>
+                <nameChi>
+廟口夜市鹽水雞便當</nameChi>
+                <nutrition>Chicken
+carrot
+Vegetable</nutrition>
+                <nutritionChi>鹽水雞
+玉米筍
+馬鈴薯
+黃瓜甘筍蘿蔔漬物
+時令蔬菜</nutritionChi>
+                <price>0.10</price>
+                <videoId>-2147483648</videoId>
+                <wgtVolume>500 gram</wgtVolume>
+                <wgtVolumeChi>500 gram</wgtVolumeChi>
+            </productPeriodInfo>
+        </productInfo>
+        <qty>999</qty>
+        <qtyHold>0</qtyHold>
+        <recommend>false</recommend>
+        <recommend1>false</recommend1>
+        <recommend2>false</recommend2>
+    </cellInfo>
+    <cellInfo>
+        <cellId>2598</cellId>
+        <columnNormal>false</columnNormal>
+        <displaySeq>20</displaySeq>
+        <enabled>false</enabled>
+        <itemNo>401</itemNo>
+        <maxQty>999</maxQty>
+        <outOfStock>false</outOfStock>
+        <productInfo>
+            <enable>true</enable>
+            <healthfood>false</healthfood>
+            <hot>false</hot>
+            <likeCount>-2147483648</likeCount>
+            <newProduct>false</newProduct>
+            <productCategoryInfo>
+                <catId>100</catId>
+                <icon>-2147483648</icon>
+                <image>-2147483648</image>
+                <imageChi>-2147483648</imageChi>
+                <name>Bento</name>
+                <nameChi>便當</nameChi>
+            </productCategoryInfo>
+            <productId>931</productId>
+            <productPeriodInfo>
+                <brandName>Man's Kitchn</brandName>
+                <brandNameChi>麻甩廚房</brandNameChi>
+                <description>After the chicken is boiled in brine, it is placed in cold water to cool down quickly, resulting a crispy texture and a pleasantly salty flavour and nice chewy texture in the meat. Topped with a secret sauce and brine marinated side dishes, Salty Chicken is a classic sensation of Taiwan.</description>
+                <descriptionChi>雞用鹽水煮過後，放置冷水中收縮冷卻 ，成品口感爽脆，肉質鹹香有嚼勁，淋上秘製醬汁及配以鹽水醃的配菜，成就了台灣的經典味道。</descriptionChi>
+                <effDateMs>1619971200000</effDateMs>
+                <expDateMs>-9223372036854775808</expDateMs>
+                <imageId>3361</imageId>
+                <imageSmallId>3362</imageSmallId>
+                <name>Miaokou Night Market Salty Chicken Bento</name>
+                <nameChi>
+廟口夜市鹽水雞便當</nameChi>
+                <nutrition>Chicken
+carrot
+Vegetable</nutrition>
+                <nutritionChi>鹽水雞
+玉米筍
+馬鈴薯
+黃瓜甘筍蘿蔔漬物
+時令蔬菜</nutritionChi>
+                <price>0.10</price>
+                <videoId>-2147483648</videoId>
+                <wgtVolume>500 gram</wgtVolume>
+                <wgtVolumeChi>500 gram</wgtVolumeChi>
+            </productPeriodInfo>
+        </productInfo>
+        <qty>999</qty>
+        <qtyHold>0</qtyHold>
+        <recommend>false</recommend>
+        <recommend1>false</recommend1>
+        <recommend2>false</recommend2>
+    </cellInfo>
+    <cellInfo>
+        <cellId>2599</cellId>
+        <columnNormal>false</columnNormal>
+        <displaySeq>21</displaySeq>
+        <enabled>false</enabled>
+        <itemNo>501</itemNo>
+        <maxQty>999</maxQty>
+        <outOfStock>false</outOfStock>
+        <productInfo>
+            <enable>true</enable>
+            <healthfood>false</healthfood>
+            <hot>false</hot>
+            <likeCount>-2147483648</likeCount>
+            <newProduct>false</newProduct>
+            <productCategoryInfo>
+                <catId>105</catId>
+                <icon>6099</icon>
+                <image>-2147483648</image>
+                <imageChi>-2147483648</imageChi>
+                <name>Drink</name>
+                <nameChi>飲品</nameChi>
+            </productCategoryInfo>
+            <productId>951</productId>
+            <productPeriodInfo>
+                <brandName>C'estbon</brandName>
+                <brandNameChi>怡寶</brandNameChi>
+                <effDateMs>1622304000000</effDateMs>
+                <expDateMs>-9223372036854775808</expDateMs>
+                <imageId>6097</imageId>
+                <imageSmallId>6098</imageSmallId>
+                <name>C'estbon CHRYSANTHEMUM TEA</name>
+                <nameChi>怡寶至本清潤菊花茶</nameChi>
+                <price>0.10</price>
+                <videoId>-2147483648</videoId>
+            </productPeriodInfo>
+        </productInfo>
+        <qty>999</qty>
+        <qtyHold>0</qtyHold>
+        <recommend>false</recommend>
+        <recommend1>false</recommend1>
+        <recommend2>false</recommend2>
+    </cellInfo>
+    <cellInfo>
+        <cellId>2597</cellId>
+        <columnNormal>false</columnNormal>
+        <displaySeq>22</displaySeq>
+        <enabled>false</enabled>
+        <itemNo>502</itemNo>
+        <maxQty>9999</maxQty>
+        <outOfStock>false</outOfStock>
+        <productInfo>
+            <enable>true</enable>
+            <healthfood>false</healthfood>
+            <hot>false</hot>
+            <likeCount>-2147483648</likeCount>
+            <newProduct>false</newProduct>
+            <productCategoryInfo>
+                <catId>105</catId>
+                <icon>6099</icon>
+                <image>-2147483648</image>
+                <imageChi>-2147483648</imageChi>
+                <name>Drink</name>
+                <nameChi>飲品</nameChi>
+            </productCategoryInfo>
+            <productId>952</productId>
+            <productPeriodInfo>
+                <brandName>Cestbon</brandName>
+                <brandNameChi>怡寶</brandNameChi>
+                <description>Safe, Healthy, Trusty</description>
+                <descriptionChi>安全、健康、值得信賴
+
+0糖0脂肪
+含成人每日所需約1/4膳食纖維</descriptionChi>
+                <effDateMs>1622304000000</effDateMs>
+                <expDateMs>-9223372036854775808</expDateMs>
+                <imageId>6093</imageId>
+                <imageSmallId>6094</imageSmallId>
+                <name>C'estbon Pure Water 1555ml</name>
+                <nameChi>怡寶水1555ML</nameChi>
+                <price>0.10</price>
+                <videoId>-2147483648</videoId>
+            </productPeriodInfo>
+        </productInfo>
+        <qty>9999</qty>
+        <qtyHold>0</qtyHold>
+        <recommend>false</recommend>
+        <recommend1>false</recommend1>
+        <recommend2>false</recommend2>
+    </cellInfo>
+</vsCellInfo>
